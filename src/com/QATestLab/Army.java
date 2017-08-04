@@ -59,7 +59,7 @@ public class Army {
         this.aliveHeroes = aliveHeroes;
     }
 
-    public void makePrivilege(){
+    public int makePrivilege(){
         int[] arrIndexUsual = usualGroupWhenPrivilege();
         int index = random.nextInt(arrIndexUsual.length);
         Main.outputPrintln(listArmy.get(index).getName());
@@ -67,15 +67,13 @@ public class Army {
         listArmy.remove(hero);
         hero.setPrivilege(true);
         listArmy.add(index, hero);
+        return index;
     }
 
-    public void makeBane(int index){
-
-
-
-
-
-
+    public void makeBane(){
+        int[] arrIndexUsual = usualGroupWhenBane();
+        int index = random.nextInt(arrIndexUsual.length);
+        Main.outputPrintln(listArmy.get(index).getName() + " at next attack");
         Hero hero = listArmy.get(index);
         listArmy.remove(hero);
         hero.setBane(true);

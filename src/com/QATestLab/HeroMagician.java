@@ -30,10 +30,7 @@ public class HeroMagician extends Hero {
             case PEOPLE:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " has made improvements to ");
-                    int[] arrIndexUsual = homeArmy.usualGroupWhenPrivilege();
-                    int index = random.nextInt(arrIndexUsual.length);
-                    Main.outputPrintln(homeArmy.listArmy.get(index).getName());
-                    homeArmy.makePrivilege(random.nextInt(index));
+                    homeArmy.makePrivilege();
                 } else {
                     Main.outputPrintln(getName() + " has made damage by magic");
                     return 4;
@@ -42,25 +39,16 @@ public class HeroMagician extends Hero {
             case ORC:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " has made improvements to ");
-                    int[] arrIndexUsual = homeArmy.usualGroupWhenPrivilege();
-                    int index = random.nextInt(arrIndexUsual.length);
-                    Main.outputPrintln(homeArmy.listArmy.get(index).getName());
-                    homeArmy.makePrivilege(random.nextInt(index));
+                    homeArmy.makePrivilege();
                 } else {
-                    Main.outputPrint(getName() + " prohibit improvements at the next step of ");
-                    int[] arrIndexUsual = enemiesArmy.usualGroupWhenBane();
-                    int index = random.nextInt(arrIndexUsual.length);
-                    Main.outputPrintln(enemiesArmy.listArmy.get(index).getName());
-                    enemiesArmy.makeBane(random.nextInt(index));
+                    Main.outputPrint(getName() + " prohibit improvements of the ");
+                    enemiesArmy.makeBane();
                 }
                 break;
             case UNDEAD:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " has reduced force of the ");
-                    int[] arrIndexUsual = enemiesArmy.usualGroupWhenBane();
-                    int index = random.nextInt(arrIndexUsual.length);
-                    Main.outputPrintln(enemiesArmy.listArmy.get(index).getName() + " at next attack");
-                    enemiesArmy.makeBane(random.nextInt(index));
+                    enemiesArmy.makeBane();
                 } else {
                     Main.outputPrintln(getName() + " has attacked");
                     return 5;
@@ -69,10 +57,7 @@ public class HeroMagician extends Hero {
             case ELF:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " has made improvements to ");
-                    int[] arrIndexUsual = homeArmy.usualGroupWhenPrivilege();
-                    int index = random.nextInt(arrIndexUsual.length);
-                    Main.outputPrintln(homeArmy.listArmy.get(index).getName());
-                    homeArmy.makePrivilege(random.nextInt(index));
+                    homeArmy.makePrivilege();
                 } else {
                     Main.outputPrintln(getName() + " has made damage by magic");
                     return 10;
