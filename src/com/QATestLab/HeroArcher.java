@@ -8,7 +8,10 @@ public class HeroArcher extends Hero {
         super(race, heroNumber);
     }
 
-
+    @Override
+    public int attack(Army homeArmy, Army enemies) {
+        return 0;
+    }
 
 
 }
