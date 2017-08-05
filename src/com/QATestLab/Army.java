@@ -38,27 +38,49 @@ public class Army {
 
     public int makePrivilege() {
         int[] arrIndexUsual = usualGroup();
-        int index = random.nextInt(arrIndexUsual.length);
-        Main.outputPrintln(listArmy.get(index).getName());
-        Hero hero = listArmy.get(index);
-        listArmy.remove(hero);
-        hero.setPrivilege(true);
-        listArmy.add(index, hero);
-        return index;
+        if (arrIndexUsual.length == 0) {
+            Main.outputPrintln("Some Hero, however all heroes have already had improvements");
+        } else {
+            int index = arrIndexUsual[random.nextInt(arrIndexUsual.length)];
+            Main.outputPrintln(listArmy.get(index).getName());
+            Hero hero = listArmy.get(index);
+            listArmy.remove(hero);
+            hero.setPrivilege(true);
+            listArmy.add(index, hero);
+            return index;
+        }
+        return -1;
     }
 
     public void makeBane() {
         int[] arrIndexUsual = usualGroupWhenBane();
-        int index = random.nextInt(arrIndexUsual.length);
-        Main.outputPrintln(listArmy.get(index).getName() + " at next attack");
-        Hero hero = listArmy.get(index);
-        listArmy.remove(hero);
-        hero.setBane(true);
-        listArmy.add(index, hero);
+        if (arrIndexUsual.length == 0) {
+            Main.outputPrintln("Some Hero, however all heroes have already had bane");
+        } else {
+            int index = arrIndexUsual[random.nextInt(arrIndexUsual.length)];
+
+            /*// use so-called open address method to avoid collision;
+            for (int i = index; ; i++) {
+                if (i == arrIndexUsual.length) {
+                    i = 0;
+                    index = 0;
+                }
+                if (!listArmy.get(index).isBane()) {
+                    break;
+                } else {
+                    index += 1;
+                }
+            }*/
+            Main.outputPrintln(listArmy.get(index).getName() + " at next attack");
+            Hero hero = listArmy.get(index);
+            listArmy.remove(hero);
+            hero.setBane(true);
+            listArmy.add(index, hero);
+        }
+
     }
 
     public void attackHero(double damage, Hero heroFighter) {
-
         if (damage > 0) {
             int index = random.nextInt(countAliveHeroes());
             Hero hero = listArmy.get(index);
@@ -89,57 +111,57 @@ public class Army {
     }
 
 
-        // indexes of usual group
-        public int[] usualGroup () {
-            int privilegeHeroes = countPrivilege();
-            int aliveHeroes = countAliveHeroes();
-            int[] usualGroup = new int[(aliveHeroes) - privilegeHeroes];
-            int i = 0;
-            for (Hero hero : listArmy) {
-                if (!hero.isPrivilege()) {
-                    usualGroup[i++] = listArmy.indexOf(hero); /////////
-                }
+    // indexes of usual group
+    public int[] usualGroup() {
+        int privilegeHeroes = countPrivilege();
+        int aliveHeroes = countAliveHeroes();
+        int[] usualGroup = new int[(aliveHeroes) - privilegeHeroes];
+        int i = 0;
+        for (Hero hero : listArmy) {
+            if (!hero.isPrivilege()) {
+                usualGroup[i++] = listArmy.indexOf(hero); /////////
             }
-            return usualGroup;
         }
+        return usualGroup;
+    }
 
-        // Only when bane group available
-        public int[] usualGroupWhenBane () {
-            int baneHeroes = countBane();
-            int aliveHeroes = countAliveHeroes();
-            int[] usualGroup = new int[(aliveHeroes) - baneHeroes];
-            int i = 0;
-            for (Hero hero : listArmy) {
-                if (!hero.isBane()) {
-                    usualGroup[i++] = listArmy.indexOf(hero); /////////
-                }
+    // Only when bane group available
+    public int[] usualGroupWhenBane() {
+        int baneHeroes = countBane();
+        int aliveHeroes = countAliveHeroes();
+        int[] usualGroup = new int[(aliveHeroes) - baneHeroes];
+        int i = 0;
+        for (Hero hero : listArmy) {
+            if (!hero.isBane()) {
+                usualGroup[i++] = listArmy.indexOf(hero); /////////
             }
-            return usualGroup;
         }
+        return usualGroup;
+    }
 
-        // indexes of privilege group
-        public int[] privilegeGroup () {
-            int[] privilegeGroup = new int[countPrivilege()];
-            int i = 0;
-            for (Hero hero : listArmy) {
-                if (hero.isPrivilege()) {
-                    privilegeGroup[i++] = listArmy.indexOf(hero); /////////
-                }
+    // indexes of privilege group
+    public int[] privilegeGroup() {
+        int[] privilegeGroup = new int[countPrivilege()];
+        int i = 0;
+        for (Hero hero : listArmy) {
+            if (hero.isPrivilege()) {
+                privilegeGroup[i++] = listArmy.indexOf(hero); /////////
             }
-            return privilegeGroup;
         }
+        return privilegeGroup;
+    }
 
-        public int[] shuffleHeroes ( int[] heroes){
-            int index;
-            int temp;
-            for (int i = heroes.length - 1; i > 0; i--) {
-                index = random.nextInt(i + 1);
-                temp = heroes[index];
-                heroes[index] = heroes[i];
-                heroes[i] = temp;
-            }
-            return heroes;
+    public int[] shuffleHeroes(int[] heroes) {
+        int index;
+        int temp;
+        for (int i = heroes.length - 1; i > 0; i--) {
+            index = random.nextInt(i + 1);
+            temp = heroes[index];
+            heroes[index] = heroes[i];
+            heroes[i] = temp;
         }
+        return heroes;
+    }
 
     public int countAliveHeroes() {
         return listArmy.size();
