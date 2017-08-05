@@ -60,7 +60,7 @@ public class Army {
     }
 
     public int makePrivilege(){
-        int[] arrIndexUsual = usualGroupWhenPrivilege();
+        int[] arrIndexUsual = usualGroup();
         int index = random.nextInt(arrIndexUsual.length);
         Main.outputPrintln(listArmy.get(index).getName());
         Hero hero = listArmy.get(index);
@@ -104,8 +104,8 @@ public class Army {
         }
     }
 
-    // Only when privilege group available
-    public int[] usualGroupWhenPrivilege() {
+    // indexes of usual group
+    public int[] usualGroup() {
         int privilegeHeroes = countPrivilege();
         int aliveHeroes = countAliveHeroes();
         int[] usualGroup = new int[(aliveHeroes) - privilegeHeroes];
@@ -132,7 +132,7 @@ public class Army {
         return usualGroup;
     }
 
-    // Only when privilege group available
+    // indexes of privilege group
     public int[] privilegeGroup() {
         int[] privilegeGroup = new int[countPrivilege()];
         int i = 0;
