@@ -26,17 +26,21 @@ public class HeroWarrior extends Hero{
         double damage = 0;
         switch (getRace()) {
             case PEOPLE:
-                Main.outputPrintln(getName() + " has attacked by sword");
+                Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has attacked by sword ");
                 damage = 18;
+                break;
             case ORC:
-                Main.outputPrintln(getName() + " has attacked by truncheon");
+                Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has attacked by truncheon ");
                 damage = 20;
+                break;
             case UNDEAD:
-                Main.outputPrintln(getName() + " has attacked by spear");
+                Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has attacked by spear ");
                 damage = 18;
+                break;
             case ELF:
-                Main.outputPrintln(getName() + " has attacked by sword");
+                Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has attacked by sword ");
                 damage = 15;
+                break;
         }
         enemiesArmy.attackHero(damage, this);
     }

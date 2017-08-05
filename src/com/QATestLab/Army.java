@@ -29,13 +29,13 @@ public class Army {
         listArmy.add(magician);
         archers = new HeroArcher[3];
         for (int i = 0; i < archers.length; i++) {
-            archers[i] = new HeroArcher(race, j);
+            archers[i] = new HeroArcher(race, i+1);
             mapArmy.put(j++, archers[i]);
             listArmy.add(archers[i]);
         }
         warriors = new HeroWarrior[4];
         for (int i = 0; i < warriors.length; i++) {
-            warriors[i] = new HeroWarrior(race, j);
+            warriors[i] = new HeroWarrior(race, i+1);
             mapArmy.put(j++, warriors[i]);
             listArmy.add(warriors[i]);
         }
@@ -81,27 +81,39 @@ public class Army {
     }
 
     public void attackHero(double damage, Hero heroFighter){
-        if (damage > 0){
-            int index = random.nextInt(countAliveHeroes());
-            Hero hero = listArmy.get(index);
-            Main.outputPrintln(hero.getName() + " (" + hero.getLiveLevelHP() + " HP)");
-            listArmy.remove(hero);
-            if (heroFighter.isPrivilege() && !heroFighter.isBane()){
-                damage *=1.5;
-                Main.outputPrintln(heroFighter.getName() + " from privilege group, his damage " + damage + " HP");
-            } else if (heroFighter.isBane() && this.race.equals(Race.ORC) && heroFighter.isPrivilege()) {
-                Main.outputPrintln("Privilege functions of" + heroFighter.getName() + "canceled by the Voodoo bane");
-            } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD)){
-                damage /=2;
-                Main.outputPrintln("Damage of " + heroFighter.getName() + " was reduced by Necromancer bane to " + damage + " HP");
-            } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD) && heroFighter.isPrivilege()) {
-                damage = damage*1.5/2;
-                Main.outputPrintln(heroFighter.getName() + " from privilege group, however he has Necromancer bane, so his damage is " + damage + " HP");
+        int aliveHeroes;
+        if ((aliveHeroes = countAliveHeroes()) != 0){ //////////////!!!
+            if (damage > 0){
+                int index = random.nextInt(aliveHeroes);
+                Hero hero = listArmy.get(index);
+                Main.outputPrint(hero.getName() + " (" + hero.getLiveLevelHP() + " HP); ");
+                listArmy.remove(hero);
+                if (heroFighter.isPrivilege() && !heroFighter.isBane()){
+                    damage *= 1.5;
+                    heroFighter.setPrivilege(false);
+                    Main.outputPrint(heroFighter.getName() + " from privilege group, his damage is: " + damage + " HP");
+                } else if (heroFighter.isBane() && this.race.equals(Race.ORC) && heroFighter.isPrivilege()) {
+                    Main.outputPrint("Privilege functions of" + heroFighter.getName() + "canceled by the Voodoo bane");
+                    heroFighter.setPrivilege(false);
+                    heroFighter.setBane(false);
+                } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD)){
+                    damage /=2;
+                    heroFighter.setBane(false);
+                    Main.outputPrint("Damage of " + heroFighter.getName() + " was reduced by Necromancer bane to " + damage + " HP");
+                } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD) && heroFighter.isPrivilege()) {
+                    damage = damage*1.5/2;
+                    Main.outputPrint(heroFighter.getName() + " from privilege group, however he has Necromancer bane, so his damage is " + damage + " HP");
+                    heroFighter.setPrivilege(false);
+                    heroFighter.setBane(false);
+                }
+                if (!hero.damage(damage)){
+                    listArmy.add(index, hero);
+                }
             }
-            if (!hero.damage(damage)){
-                listArmy.add(index, hero);
-            }
+        } else {
+            System.exit(0);
         }
+
     }
 
     // indexes of usual group

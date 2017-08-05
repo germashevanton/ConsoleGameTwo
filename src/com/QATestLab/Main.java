@@ -45,6 +45,10 @@ public class Main {
             new Battle(oneSide, anotherSide);
         } catch (IOException e) {
             e.printStackTrace();
+        } finally {
+        if (logfile != null) {
+            logfile.close();
         }
+    }
     }
 }

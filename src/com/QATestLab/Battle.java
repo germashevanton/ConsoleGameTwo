@@ -34,16 +34,41 @@ public class Battle {
 
     private void attack(Army homeArmy, Army enemyArmy) {
         if (homeArmy.countPrivilege() != 0){
+            Main.outputPrintln("*** First is attacking Heroes from privilege group ***");
             int[] privilege = homeArmy.privilegeGroup();
             privilege = homeArmy.shuffleHeroes(privilege);
             for (int i : privilege) {
                 homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
             }
-        } else {
+            Main.outputPrintln("*** The next attacking Heroes from usual group ***");
             int[] usual = homeArmy.usualGroup();
             usual = homeArmy.shuffleHeroes(usual);
             for (int i : usual) {
-                homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
+                if (enemyArmy.countAliveHeroes() != 0) {
+                    homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
+                } else {
+                    Main.outputPrintln("Game over");
+                    if (Main.logfile != null) {
+                        Main.logfile.close();
+                    }
+                    System.exit(0);
+                }
+            }
+        } else {
+            Main.outputPrintln("*** There is no Heroes in privilege group ***");
+            int[] usual = homeArmy.usualGroup();
+            usual = homeArmy.shuffleHeroes(usual);
+            for (int i : usual) {
+                if (enemyArmy.countAliveHeroes() != 0) {
+                    homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
+                } else {
+                    Main.outputPrintln("Game over");
+                    if (Main.logfile != null) {
+                        Main.logfile.close();
+                    }
+                    System.exit(0);
+                }
+
             }
 
         }

@@ -57,10 +57,10 @@ public abstract class Hero {
 
     public boolean damage(double attackValue){
         if ((this.liveLevelHP -= attackValue) > 0){
-            Main.outputPrintln(getName() + " live level became " + liveLevelHP + " HP");
+            Main.outputPrintln("  -  " + getName() + " live level became " + liveLevelHP + " HP");
             return false; // hero alive
         } else {
-            Main.outputPrintln(getName() + " is killed");
+            Main.outputPrintln("  -  " + getName() + " is killed");
             return true; // hero killed
         }
 

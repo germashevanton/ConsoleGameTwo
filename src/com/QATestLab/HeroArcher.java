@@ -30,36 +30,40 @@ public class HeroArcher extends Hero {
 
             case PEOPLE:
                 if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the crossbow");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) shot from the crossbow ");
                     damage = 5;
                 } else {
-                    Main.outputPrintln(getName() + " attack an enemy");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) attack an enemy ");
                     damage = 3;
                 }
+                break;
             case ORC:
                 if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the bow");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) shot from the bow ");
                     damage = 3;
                 } else {
-                    Main.outputPrintln(getName() + " punch by knife");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) punch by knife ");
                     damage = 2;
                 }
+                break;
             case UNDEAD:
                 if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the bow");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) shot from the bow ");
                     damage = 4;
                 } else {
-                    Main.outputPrintln(getName() + " attack an enemy");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) attack an enemy ");
                     damage = 2;
                 }
+                break;
             case ELF:
                 if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the bow");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) shot from the bow ");
                     damage = 7;
                 } else {
-                    Main.outputPrintln(getName() + " attack an enemy");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) attack an enemy ");
                     damage = 3;
                 }
+                break;
 
         }
         enemiesArmy.attackHero(damage, this);

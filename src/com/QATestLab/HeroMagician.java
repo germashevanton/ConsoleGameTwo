@@ -30,37 +30,37 @@ public class HeroMagician extends Hero {
         switch (getRace()) {
             case PEOPLE:
                 if (attackAction == 0) {
-                    Main.outputPrint(getName() + " has made improvements to ");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made improvements to ");
                     homeArmy.makePrivilege();
                 } else {
-                    Main.outputPrint(getName() + " has made damage by magic to");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made damage by magic to ");
                     damage = 4;
                 }
                 break;
             case ORC:
                 if (attackAction == 0) {
-                    Main.outputPrint(getName() + " has made improvements to ");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made improvements to ");
                     homeArmy.makePrivilege();
                 } else {
-                    Main.outputPrint(getName() + " prohibit improvements of the ");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) prohibit improvements of the ");
                     enemiesArmy.makeBane();
                 }
                 break;
             case UNDEAD:
                 if (attackAction == 0) {
-                    Main.outputPrint(getName() + " has reduced force of the ");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has reduced force of the ");
                     enemiesArmy.makeBane();
                 } else {
-                    Main.outputPrint(getName() + " has attacked ");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has attacked ");
                     damage = 5;
                 }
                 break;
             case ELF:
                 if (attackAction == 0) {
-                    Main.outputPrint(getName() + " has made improvements to ");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made improvements to ");
                     homeArmy.makePrivilege();
                 } else {
-                    Main.outputPrint(getName() + " has made damage by magic to");
+                    Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made damage by magic to ");
                     damage = 10;
                 }
                 break;
