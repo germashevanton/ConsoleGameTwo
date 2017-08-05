@@ -80,9 +80,29 @@ public class Army {
         listArmy.add(index, hero);
     }
 
-
-
-
+    public void attackHero(double damage, Hero heroFighter){
+        if (damage > 0){
+            int index = random.nextInt(countAliveHeroes());
+            Hero hero = listArmy.get(index);
+            Main.outputPrintln(hero.getName() + " (" + hero.getLiveLevelHP() + " HP)");
+            listArmy.remove(hero);
+            if (heroFighter.isPrivilege() && !heroFighter.isBane()){
+                damage *=1.5;
+                Main.outputPrintln(heroFighter.getName() + " from privilege group, his damage " + damage + " HP");
+            } else if (heroFighter.isBane() && this.race.equals(Race.ORC) && heroFighter.isPrivilege()) {
+                Main.outputPrintln("Privilege functions of" + heroFighter.getName() + "canceled by the Voodoo bane");
+            } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD)){
+                damage /=2;
+                Main.outputPrintln("Damage of " + heroFighter.getName() + " was reduced by Necromancer bane to " + damage + " HP");
+            } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD) && heroFighter.isPrivilege()) {
+                damage = damage*1.5/2;
+                Main.outputPrintln(heroFighter.getName() + " from privilege group, however he has Necromancer bane, so his damage is " + damage + " HP");
+            }
+            if (!hero.damage(damage)){
+                listArmy.add(index, hero);
+            }
+        }
+    }
 
     // Only when privilege group available
     public int[] usualGroupWhenPrivilege() {
@@ -139,7 +159,6 @@ public class Army {
     public int countAliveHeroes(){
         return listArmy.size();
     }
-
 
     public int countPrivilege(){
         int countPrivilege = 0;

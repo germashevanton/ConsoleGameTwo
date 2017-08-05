@@ -2,63 +2,42 @@ package com.QATestLab;
 
 
 public class HeroWarrior extends Hero{
-
     public HeroWarrior(Race race, int heroNumber) {
+
         super(race, heroNumber);
 
         switch (race) {
             case PEOPLE:
-                setName(race.toString() + "'s Crossbowman #" + heroNumber);
+                setName(race.toString() + "'s Warrior #" + heroNumber);
             case ELF:
-                setName(race.toString() + "'s Archer #" + heroNumber);
+                setName(race.toString() + "'s Warrior #" + heroNumber);
                 break;
             case ORC:
-                setName(race.toString() + "'s Archer #" + heroNumber);
+                setName(race.toString() + "'s Warrior #" + heroNumber);
                 break;
             case UNDEAD:
-                setName(race.toString() + "'s Hunter #" + heroNumber);
+                setName(race.toString() + "'s Zombie #" + heroNumber);
                 break;
         }
     }
 
     @Override
-    public int attack(Army homeArmy, Army enemiesArmy) {
-        int attackAction = random.nextInt(2);
+    public void attack(Army homeArmy, Army enemiesArmy) {
+        double damage = 0;
         switch (getRace()) {
             case PEOPLE:
-                if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the crossbow");
-                    return 5;
-                } else {
-                    Main.outputPrintln(getName() + " attack an enemy");
-                    return 3;
-                }
+                Main.outputPrintln(getName() + " has attacked by sword");
+                damage = 18;
             case ORC:
-                if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the bow");
-                    return 3;
-                } else {
-                    Main.outputPrintln(getName() + " punch by knife");
-                    return 2;
-                }
+                Main.outputPrintln(getName() + " has attacked by truncheon");
+                damage = 20;
             case UNDEAD:
-                if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the bow");
-                    return 4;
-                } else {
-                    Main.outputPrintln(getName() + " attack an enemy");
-                    return 2;
-                }
+                Main.outputPrintln(getName() + " has attacked by spear");
+                damage = 18;
             case ELF:
-                if (attackAction == 0) {
-                    Main.outputPrintln(getName() + " shot from the bow");
-                    return 7;
-                } else {
-                    Main.outputPrintln(getName() + " attack an enemy");
-                    return 3;
-                }
+                Main.outputPrintln(getName() + " has attacked by sword");
+                damage = 15;
         }
-        return 0;
-
+        enemiesArmy.attackHero(damage, this);
     }
 }

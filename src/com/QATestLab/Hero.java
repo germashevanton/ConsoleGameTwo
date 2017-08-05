@@ -55,18 +55,18 @@ public abstract class Hero {
         this.bane = bane;
     }
 
-    public boolean damage(int attackValue, Army army){
+    public boolean damage(double attackValue){
         if ((this.liveLevelHP -= attackValue) > 0){
+            Main.outputPrintln(getName() + " live level became " + liveLevelHP + " HP");
             return false; // hero alive
         } else {
-            army.listArmy.remove(this);
             Main.outputPrintln(getName() + " is killed");
             return true; // hero killed
         }
 
     }
 
-    public abstract int attack(Army homeArmy, Army enemies);
+    public abstract void attack(Army homeArmy, Army enemies);
 
 
 

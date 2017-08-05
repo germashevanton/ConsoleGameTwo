@@ -24,16 +24,17 @@ public class HeroMagician extends Hero {
     }
 
     @Override
-    public int attack(Army homeArmy, Army enemiesArmy) {
+    public void attack(Army homeArmy, Army enemiesArmy) {
         int attackAction = random.nextInt(2);
+        int damage = 0;
         switch (getRace()) {
             case PEOPLE:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " has made improvements to ");
                     homeArmy.makePrivilege();
                 } else {
-                    Main.outputPrintln(getName() + " has made damage by magic");
-                    return 4;
+                    Main.outputPrint(getName() + " has made damage by magic to");
+                    damage = 4;
                 }
                 break;
             case ORC:
@@ -50,8 +51,8 @@ public class HeroMagician extends Hero {
                     Main.outputPrint(getName() + " has reduced force of the ");
                     enemiesArmy.makeBane();
                 } else {
-                    Main.outputPrintln(getName() + " has attacked");
-                    return 5;
+                    Main.outputPrint(getName() + " has attacked ");
+                    damage = 5;
                 }
                 break;
             case ELF:
@@ -59,12 +60,12 @@ public class HeroMagician extends Hero {
                     Main.outputPrint(getName() + " has made improvements to ");
                     homeArmy.makePrivilege();
                 } else {
-                    Main.outputPrintln(getName() + " has made damage by magic");
-                    return 10;
+                    Main.outputPrint(getName() + " has made damage by magic to");
+                    damage = 10;
                 }
                 break;
         }
-        return 0;
+        enemiesArmy.attackHero(damage, this);
     }
 
 }

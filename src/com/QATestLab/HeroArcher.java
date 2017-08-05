@@ -23,46 +23,45 @@ public class HeroArcher extends Hero {
     }
 
     @Override
-    public int attack(Army homeArmy, Army enemiesArmy) {
+    public void attack(Army homeArmy, Army enemiesArmy) {
         int attackAction = random.nextInt(2);
+        double damage = 0;
         switch (getRace()) {
+
             case PEOPLE:
                 if (attackAction == 0) {
                     Main.outputPrintln(getName() + " shot from the crossbow");
-                    return 5;
+                    damage = 5;
                 } else {
                     Main.outputPrintln(getName() + " attack an enemy");
-                    return 3;
+                    damage = 3;
                 }
             case ORC:
                 if (attackAction == 0) {
                     Main.outputPrintln(getName() + " shot from the bow");
-                    return 3;
+                    damage = 3;
                 } else {
                     Main.outputPrintln(getName() + " punch by knife");
-                    return 2;
+                    damage = 2;
                 }
             case UNDEAD:
                 if (attackAction == 0) {
                     Main.outputPrintln(getName() + " shot from the bow");
-                    return 4;
+                    damage = 4;
                 } else {
                     Main.outputPrintln(getName() + " attack an enemy");
-                    return 2;
+                    damage = 2;
                 }
             case ELF:
                 if (attackAction == 0) {
                     Main.outputPrintln(getName() + " shot from the bow");
-                    return 7;
+                    damage = 7;
                 } else {
                     Main.outputPrintln(getName() + " attack an enemy");
-                    return 3;
+                    damage = 3;
                 }
 
         }
-        return 0;
-
+        enemiesArmy.attackHero(damage, this);
     }
-
-
 }
