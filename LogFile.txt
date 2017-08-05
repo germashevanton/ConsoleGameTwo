@@ -1,0 +1,225 @@
+!!!People fight against Undead!!!
+ 
+Undead is attacking, step #1:
+*** There is no Heroes in privilege group ***
+Undead's Zombie #2 (100.0 HP) has attacked by spear People's Warrior #3 (100.0 HP);   -  People's Warrior #3 live level became 82.0 HP
+Undead's Hunter #3 (100.0 HP) shot from the bow People's Warrior #3 (82.0 HP);   -  People's Warrior #3 live level became 78.0 HP
+Undead's Hunter #1 (100.0 HP) shot from the bow People's Warrior #1 (100.0 HP);   -  People's Warrior #1 live level became 96.0 HP
+Undead's Zombie #1 (100.0 HP) has attacked by spear People's Warrior #4 (100.0 HP);   -  People's Warrior #4 live level became 82.0 HP
+Undead's Zombie #3 (100.0 HP) has attacked by spear People's Warrior #3 (78.0 HP);   -  People's Warrior #3 live level became 60.0 HP
+Undead's Hunter #2 (100.0 HP) attack an enemy People's Archer #2 (100.0 HP);   -  People's Archer #2 live level became 98.0 HP
+Undead's Necromancer (100.0 HP) has attacked People's Warrior #1 (96.0 HP);   -  People's Warrior #1 live level became 91.0 HP
+Undead's Zombie #4 (100.0 HP) has attacked by spear People's Archer #1 (100.0 HP);   -  People's Archer #1 live level became 82.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #2:
+*** There is no Heroes in privilege group ***
+Undead's Necromancer (100.0 HP) has reduced force of the People's Warrior #4 at next attack
+Undead's Zombie #2 (100.0 HP) has attacked by spear People's Warrior #4 (82.0 HP);   -  People's Warrior #4 live level became 64.0 HP
+Undead's Zombie #3 (100.0 HP) has attacked by spear People's Warrior #1 (91.0 HP);   -  People's Warrior #1 live level became 73.0 HP
+Undead's Hunter #3 (100.0 HP) attack an enemy People's Archer #2 (98.0 HP);   -  People's Archer #2 live level became 96.0 HP
+Undead's Hunter #2 (100.0 HP) shot from the bow People's Warrior #2 (100.0 HP);   -  People's Warrior #2 live level became 96.0 HP
+Undead's Zombie #4 (100.0 HP) has attacked by spear People's Archer #2 (96.0 HP);   -  People's Archer #2 live level became 78.0 HP
+Undead's Hunter #1 (100.0 HP) shot from the bow People's Warrior #3 (60.0 HP);   -  People's Warrior #3 live level became 56.0 HP
+Undead's Zombie #1 (100.0 HP) has attacked by spear People's Warrior #2 (96.0 HP);   -  People's Warrior #2 live level became 78.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #3:
+*** There is no Heroes in privilege group ***
+People's Archer #2 (78.0 HP) shot from the crossbow Undead's Zombie #2 (100.0 HP);   -  Undead's Zombie #2 live level became 95.0 HP
+People's Warrior #3 (56.0 HP) has attacked by sword Undead's Necromancer (100.0 HP);   -  Undead's Necromancer live level became 82.0 HP
+People's Magician (100.0 HP) has made improvements to People's Archer #1
+People's Archer #1 (82.0 HP) attack an enemy Undead's Zombie #2 (95.0 HP); People's Archer #1 from privilege group, his damage is: 4.5 HP  -  Undead's Zombie #2 live level became 90.5 HP
+People's Warrior #1 (73.0 HP) has attacked by sword Undead's Hunter #2 (100.0 HP);   -  Undead's Hunter #2 live level became 82.0 HP
+People's Archer #3 (100.0 HP) attack an enemy Undead's Hunter #1 (100.0 HP);   -  Undead's Hunter #1 live level became 97.0 HP
+People's Warrior #2 (78.0 HP) has attacked by sword Undead's Hunter #2 (82.0 HP);   -  Undead's Hunter #2 live level became 64.0 HP
+People's Warrior #4 (64.0 HP) has attacked by sword Undead's Hunter #1 (97.0 HP); Damage of People's Warrior #4 was reduced by Necromancer bane to 9.0 HP  -  Undead's Hunter #1 live level became 88.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #4:
+*** There is no Heroes in privilege group ***
+People's Archer #3 (100.0 HP) shot from the crossbow Undead's Zombie #3 (100.0 HP);   -  Undead's Zombie #3 live level became 95.0 HP
+People's Warrior #4 (64.0 HP) has attacked by sword Undead's Hunter #2 (64.0 HP);   -  Undead's Hunter #2 live level became 46.0 HP
+People's Warrior #3 (56.0 HP) has attacked by sword Undead's Zombie #4 (100.0 HP);   -  Undead's Zombie #4 live level became 82.0 HP
+People's Archer #2 (78.0 HP) shot from the crossbow Undead's Zombie #2 (90.5 HP);   -  Undead's Zombie #2 live level became 85.5 HP
+People's Archer #1 (82.0 HP) shot from the crossbow Undead's Necromancer (82.0 HP);   -  Undead's Necromancer live level became 77.0 HP
+People's Warrior #2 (78.0 HP) has attacked by sword Undead's Zombie #1 (100.0 HP);   -  Undead's Zombie #1 live level became 82.0 HP
+People's Magician (100.0 HP) has made damage by magic to Undead's Hunter #1 (88.0 HP);   -  Undead's Hunter #1 live level became 84.0 HP
+People's Warrior #1 (73.0 HP) has attacked by sword Undead's Necromancer (77.0 HP);   -  Undead's Necromancer live level became 59.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #5:
+*** There is no Heroes in privilege group ***
+Undead's Hunter #3 (100.0 HP) shot from the bow People's Warrior #2 (78.0 HP);   -  People's Warrior #2 live level became 74.0 HP
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Warrior #2 (74.0 HP);   -  People's Warrior #2 live level became 56.0 HP
+Undead's Hunter #2 (46.0 HP) attack an enemy People's Warrior #3 (56.0 HP);   -  People's Warrior #3 live level became 54.0 HP
+Undead's Necromancer (59.0 HP) has reduced force of the People's Warrior #1 at next attack
+Undead's Hunter #1 (84.0 HP) shot from the bow People's Warrior #2 (56.0 HP);   -  People's Warrior #2 live level became 52.0 HP
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Archer #2 (78.0 HP);   -  People's Archer #2 live level became 60.0 HP
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Warrior #4 (64.0 HP);   -  People's Warrior #4 live level became 46.0 HP
+Undead's Zombie #2 (85.5 HP) has attacked by spear People's Warrior #1 (73.0 HP);   -  People's Warrior #1 live level became 55.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #6:
+*** There is no Heroes in privilege group ***
+Undead's Hunter #1 (84.0 HP) attack an enemy People's Warrior #2 (52.0 HP);   -  People's Warrior #2 live level became 50.0 HP
+Undead's Hunter #3 (100.0 HP) attack an enemy People's Archer #3 (100.0 HP);   -  People's Archer #3 live level became 98.0 HP
+Undead's Zombie #2 (85.5 HP) has attacked by spear People's Archer #3 (98.0 HP);   -  People's Archer #3 live level became 80.0 HP
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Warrior #1 (55.0 HP);   -  People's Warrior #1 live level became 37.0 HP
+Undead's Necromancer (59.0 HP) has reduced force of the People's Magician at next attack
+Undead's Hunter #2 (46.0 HP) shot from the bow People's Warrior #3 (54.0 HP);   -  People's Warrior #3 live level became 50.0 HP
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Magician (100.0 HP);   -  People's Magician live level became 82.0 HP
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Warrior #4 (46.0 HP);   -  People's Warrior #4 live level became 28.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #7:
+*** There is no Heroes in privilege group ***
+Undead's Necromancer (59.0 HP) has reduced force of the People's Warrior #2 at next attack
+Undead's Zombie #2 (85.5 HP) has attacked by spear People's Warrior #4 (28.0 HP);   -  People's Warrior #4 live level became 10.0 HP
+Undead's Hunter #2 (46.0 HP) shot from the bow People's Warrior #3 (50.0 HP);   -  People's Warrior #3 live level became 46.0 HP
+Undead's Hunter #3 (100.0 HP) shot from the bow People's Warrior #1 (37.0 HP);   -  People's Warrior #1 live level became 33.0 HP
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Warrior #2 (50.0 HP);   -  People's Warrior #2 live level became 32.0 HP
+Undead's Hunter #1 (84.0 HP) shot from the bow People's Warrior #4 (10.0 HP);   -  People's Warrior #4 live level became 6.0 HP
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Archer #1 (82.0 HP);   -  People's Archer #1 live level became 64.0 HP
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Archer #1 (64.0 HP);   -  People's Archer #1 live level became 46.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #8:
+*** There is no Heroes in privilege group ***
+Undead's Hunter #2 (46.0 HP) shot from the bow People's Warrior #3 (46.0 HP);   -  People's Warrior #3 live level became 42.0 HP
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Warrior #1 (33.0 HP);   -  People's Warrior #1 live level became 15.0 HP
+Undead's Zombie #2 (85.5 HP) has attacked by spear People's Archer #1 (46.0 HP);   -  People's Archer #1 live level became 28.0 HP
+Undead's Hunter #3 (100.0 HP) attack an enemy People's Archer #1 (28.0 HP);   -  People's Archer #1 live level became 26.0 HP
+Undead's Hunter #1 (84.0 HP) shot from the bow People's Archer #3 (80.0 HP);   -  People's Archer #3 live level became 76.0 HP
+Undead's Necromancer (59.0 HP) has reduced force of the People's Magician at next attack
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Magician (82.0 HP);   -  People's Magician live level became 64.0 HP
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Archer #2 (60.0 HP);   -  People's Archer #2 live level became 42.0 HP
+-----------------------------------
+People have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #9:
+*** There is no Heroes in privilege group ***
+Undead's Zombie #2 (85.5 HP) has attacked by spear People's Warrior #3 (42.0 HP);   -  People's Warrior #3 live level became 24.0 HP
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Warrior #2 (32.0 HP);   -  People's Warrior #2 live level became 14.0 HP
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Warrior #1 (15.0 HP);   -  People's Warrior #1 is killed
+Undead's Hunter #3 (100.0 HP) shot from the bow People's Magician (64.0 HP);   -  People's Magician live level became 60.0 HP
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Archer #2 (42.0 HP);   -  People's Archer #2 live level became 24.0 HP
+Undead's Hunter #1 (84.0 HP) shot from the bow People's Warrior #4 (6.0 HP);   -  People's Warrior #4 live level became 2.0 HP
+Undead's Necromancer (59.0 HP) has attacked People's Archer #2 (24.0 HP);   -  People's Archer #2 live level became 19.0 HP
+Undead's Hunter #2 (46.0 HP) shot from the bow People's Warrior #4 (2.0 HP);   -  People's Warrior #4 is killed
+-----------------------------------
+People have 6 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #10:
+*** There is no Heroes in privilege group ***
+People's Archer #1 (26.0 HP) attack an enemy Undead's Hunter #1 (84.0 HP);   -  Undead's Hunter #1 live level became 81.0 HP
+People's Archer #2 (19.0 HP) shot from the crossbow Undead's Hunter #1 (81.0 HP);   -  Undead's Hunter #1 live level became 76.0 HP
+People's Archer #3 (76.0 HP) attack an enemy Undead's Hunter #1 (76.0 HP);   -  Undead's Hunter #1 live level became 73.0 HP
+People's Warrior #3 (24.0 HP) has attacked by sword Undead's Hunter #2 (46.0 HP);   -  Undead's Hunter #2 live level became 28.0 HP
+People's Warrior #2 (14.0 HP) has attacked by sword Undead's Zombie #2 (85.5 HP); Damage of People's Warrior #2 was reduced by Necromancer bane to 9.0 HP  -  Undead's Zombie #2 live level became 76.5 HP
+People's Magician (60.0 HP) has made damage by magic to Undead's Hunter #1 (73.0 HP); Damage of People's Magician was reduced by Necromancer bane to 2.0 HP  -  Undead's Hunter #1 live level became 71.0 HP
+-----------------------------------
+People have 6 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #11:
+*** There is no Heroes in privilege group ***
+Undead's Hunter #1 (71.0 HP) shot from the bow People's Magician (60.0 HP);   -  People's Magician live level became 56.0 HP
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Archer #2 (19.0 HP);   -  People's Archer #2 live level became 1.0 HP
+Undead's Zombie #2 (76.5 HP) has attacked by spear People's Archer #3 (76.0 HP);   -  People's Archer #3 live level became 58.0 HP
+Undead's Hunter #3 (100.0 HP) shot from the bow People's Warrior #3 (24.0 HP);   -  People's Warrior #3 live level became 20.0 HP
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Archer #2 (1.0 HP);   -  People's Archer #2 is killed
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Archer #3 (58.0 HP);   -  People's Archer #3 live level became 40.0 HP
+Undead's Hunter #2 (28.0 HP) attack an enemy People's Archer #3 (40.0 HP);   -  People's Archer #3 live level became 38.0 HP
+Undead's Necromancer (59.0 HP) has attacked People's Archer #1 (26.0 HP);   -  People's Archer #1 live level became 21.0 HP
+-----------------------------------
+People have 5 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #12:
+*** There is no Heroes in privilege group ***
+Undead's Hunter #2 (28.0 HP) attack an enemy People's Archer #1 (21.0 HP);   -  People's Archer #1 live level became 19.0 HP
+Undead's Hunter #3 (100.0 HP) shot from the bow People's Archer #1 (19.0 HP);   -  People's Archer #1 live level became 15.0 HP
+Undead's Zombie #3 (95.0 HP) has attacked by spear People's Magician (56.0 HP);   -  People's Magician live level became 38.0 HP
+Undead's Hunter #1 (71.0 HP) attack an enemy People's Archer #3 (38.0 HP);   -  People's Archer #3 live level became 36.0 HP
+Undead's Necromancer (59.0 HP) has reduced force of the People's Warrior #2 at next attack
+Undead's Zombie #4 (82.0 HP) has attacked by spear People's Warrior #3 (20.0 HP);   -  People's Warrior #3 live level became 2.0 HP
+Undead's Zombie #2 (76.5 HP) has attacked by spear People's Warrior #3 (2.0 HP);   -  People's Warrior #3 is killed
+Undead's Zombie #1 (82.0 HP) has attacked by spear People's Magician (38.0 HP);   -  People's Magician live level became 20.0 HP
+-----------------------------------
+People have 4 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #13:
+*** There is no Heroes in privilege group ***
+People's Archer #3 (36.0 HP) shot from the crossbow Undead's Zombie #4 (82.0 HP);   -  Undead's Zombie #4 live level became 77.0 HP
+People's Warrior #2 (14.0 HP) has attacked by sword Undead's Zombie #1 (82.0 HP); Damage of People's Warrior #2 was reduced by Necromancer bane to 9.0 HP  -  Undead's Zombie #1 live level became 73.0 HP
+People's Archer #1 (15.0 HP) attack an enemy Undead's Zombie #1 (73.0 HP);   -  Undead's Zombie #1 live level became 70.0 HP
+People's Magician (20.0 HP) has made improvements to People's Archer #3
+-----------------------------------
+People have 4 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #14:
+*** First is attacking Heroes from privilege group ***
+People's Archer #3 (36.0 HP) attack an enemy Undead's Zombie #4 (77.0 HP); People's Archer #3 from privilege group, his damage is: 4.5 HP  -  Undead's Zombie #4 live level became 72.5 HP
+*** The next attacking Heroes from usual group ***
+People's Archer #3 (36.0 HP) shot from the crossbow Undead's Zombie #3 (95.0 HP);   -  Undead's Zombie #3 live level became 90.0 HP
+People's Magician (20.0 HP) has made damage by magic to Undead's Hunter #2 (28.0 HP);   -  Undead's Hunter #2 live level became 24.0 HP
+People's Archer #1 (15.0 HP) shot from the crossbow Undead's Zombie #4 (72.5 HP);   -  Undead's Zombie #4 live level became 67.5 HP
+People's Warrior #2 (14.0 HP) has attacked by sword Undead's Necromancer (59.0 HP);   -  Undead's Necromancer live level became 41.0 HP
+-----------------------------------
+People have 4 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #15:
+*** There is no Heroes in privilege group ***
+People's Archer #1 (15.0 HP) shot from the crossbow Undead's Zombie #4 (67.5 HP);   -  Undead's Zombie #4 live level became 62.5 HP
+People's Warrior #2 (14.0 HP) has attacked by sword Undead's Zombie #4 (62.5 HP);   -  Undead's Zombie #4 live level became 44.5 HP
+People's Archer #3 (36.0 HP) attack an enemy Undead's Necromancer (41.0 HP);   -  Undead's Necromancer live level became 38.0 HP
+People's Magician (20.0 HP) has made damage by magic to Undead's Hunter #3 (100.0 HP);   -  Undead's Hunter #3 live level became 96.0 HP
+-----------------------------------
+People have 4 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #16:
+*** There is no Heroes in privilege group ***
+Undead's Necromancer (38.0 HP) has reduced force of the People's Archer #1 at next attack
+Undead's Zombie #4 (44.5 HP) has attacked by spear People's Archer #1 (15.0 HP);   -  People's Archer #1 is killed
+Undead's Hunter #3 (96.0 HP) attack an enemy People's Archer #3 (36.0 HP);   -  People's Archer #3 live level became 34.0 HP
+Undead's Zombie #3 (90.0 HP) has attacked by spear People's Magician (20.0 HP);   -  People's Magician live level became 2.0 HP
+Undead's Zombie #1 (70.0 HP) has attacked by spear People's Archer #3 (34.0 HP);   -  People's Archer #3 live level became 16.0 HP
+Undead's Zombie #2 (76.5 HP) has attacked by spear People's Archer #3 (16.0 HP);   -  People's Archer #3 is killed
+Undead's Hunter #2 (24.0 HP) attack an enemy People's Warrior #2 (14.0 HP);   -  People's Warrior #2 live level became 12.0 HP
+Undead's Hunter #1 (71.0 HP) shot from the bow People's Magician (2.0 HP);   -  People's Magician is killed
+-----------------------------------
+People have 1 alive heroes
+Undead have 8 alive heroes
+ 
+People is attacking, step #17:
+*** There is no Heroes in privilege group ***
+People's Warrior #2 (12.0 HP) has attacked by sword Undead's Hunter #2 (24.0 HP);   -  Undead's Hunter #2 live level became 6.0 HP
+-----------------------------------
+People have 1 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #18:
+*** There is no Heroes in privilege group ***
+Undead's Zombie #1 (70.0 HP) has attacked by spear People's Warrior #2 (12.0 HP);   -  People's Warrior #2 is killed
+Game over
