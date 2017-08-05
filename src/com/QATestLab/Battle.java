@@ -32,7 +32,22 @@ public class Battle {
 
     }
 
-    private void attack(Army oneSide, Army anotherSide) {
+    private void attack(Army homeArmy, Army enemyArmy) {
+        if (homeArmy.countPrivilege() != 0){
+            int[] privilege = homeArmy.privilegeGroup();
+            privilege = homeArmy.shuffleHeroes(privilege);
+            for (int i : privilege) {
+                homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
+            }
+        } else {
+            int[] usual = homeArmy.usualGroup();
+            usual = homeArmy.shuffleHeroes(usual);
+            for (int i : usual) {
+                homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
+            }
+
+        }
+
 
     }
 
