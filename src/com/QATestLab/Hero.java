@@ -30,10 +30,6 @@ public abstract class Hero {
         return name;
     }
 
-    public int getHeroNumber() {
-        return heroNumber;
-    }
-
     public double getLiveLevelHP() {
         return liveLevelHP;
     }
