@@ -34,10 +34,10 @@ public class Battle {
     }
 
     private void attack(Army homeArmy, Army enemyArmy) {
-        int indexPrivAttacked = -1;
+        int[] privilege = homeArmy.privilegeGroup();
+        int[] usual = homeArmy.usualGroup();
         if (homeArmy.countPrivilege() != 0) {
             Main.outputPrintln("*** First is attacking Heroes from privilege group ***");
-            int[] privilege = homeArmy.privilegeGroup();
             privilege = homeArmy.shuffleHeroes(privilege);
             for (int i : privilege) {
                 if (enemyArmy.countAliveHeroes() != 0) {
@@ -47,53 +47,40 @@ public class Battle {
                 }
             }
             Main.outputPrintln("*** The next attacking Heroes from usual group ***");
-            int[] usual = homeArmy.usualGroup();
-            usual = homeArmy.shuffleHeroes(usual);
-            for (int i : usual) {
-                if (i == indexPrivAttacked) {
-                    continue;
-                }
-                if (enemyArmy.countAliveHeroes() != 0) {
-                    if (indexOfNewPrivilege >= 0){
-                        if (defineIfNewPrivilegeAttacked(usual, i, indexOfNewPrivilege)) {
-                            homeArmy.listArmy.get(indexOfNewPrivilege).attack(homeArmy, enemyArmy);
-                            indexPrivAttacked = indexOfNewPrivilege;
-                            indexOfNewPrivilege = -1;
-                        }
-                    }
-                    homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
-                } else {
-                    gameOver();
-                }
-            }
+            usualGroupAction(homeArmy, enemyArmy, usual);
         } else {
             Main.outputPrintln("*** There is no Heroes in privilege group ***");
-            int[] usual = homeArmy.usualGroup();
-            usual = homeArmy.shuffleHeroes(usual);
-            for (int i : usual) {
-                if (i == indexPrivAttacked) {
-                    continue;
-                }
-                if (enemyArmy.countAliveHeroes() != 0) {
-                    if (indexOfNewPrivilege >= 0){
-                        if (defineIfNewPrivilegeAttacked(usual, i, indexOfNewPrivilege)) {
-                            homeArmy.listArmy.get(indexOfNewPrivilege).attack(homeArmy, enemyArmy);
-                            indexPrivAttacked = indexOfNewPrivilege;
-                            indexOfNewPrivilege = -1;
-                        }
+            usualGroupAction(homeArmy, enemyArmy, usual);
+        }
+    }
+
+    private void usualGroupAction(Army homeArmy, Army enemyArmy, int[] usual){
+        int indexPrivAttacked = -1;
+        usual = homeArmy.shuffleHeroes(usual);
+        for (int i : usual) {
+            if (i == indexPrivAttacked) { ////
+                continue;
+            }
+            if (enemyArmy.countAliveHeroes() != 0) {
+                if (indexOfNewPrivilege >= 0){
+                    if (defineIfNewPrivilegeAttacked(usual, i, indexOfNewPrivilege)) {
+                        homeArmy.listArmy.get(indexOfNewPrivilege).attack(homeArmy, enemyArmy);
+                        indexPrivAttacked = indexOfNewPrivilege;
+                        indexOfNewPrivilege = -1;
                     }
-                    homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
                 } else {
-                    gameOver();
+                    homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
                 }
+            } else {
+                gameOver();
             }
         }
     }
 
-    boolean defineIfNewPrivilegeAttacked(int[] arr, int i, int indexOfNewPrivilege) {
+    private boolean defineIfNewPrivilegeAttacked(int[] arr, int i, int indexOfNewPrivilege) {
         for (int a = 0; a < arr.length; a++) {
-            if (a == indexOfNewPrivilege) {
-                if ((a - i) >= 0) {
+            if (arr[a] == indexOfNewPrivilege) {
+                if ((a - i) <= 0) {
                     this.indexOfNewPrivilege = -1;
                     return false;
                 } else {

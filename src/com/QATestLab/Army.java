@@ -58,19 +58,6 @@ public class Army {
             Main.outputPrintln("Some Hero, however all heroes have already had bane");
         } else {
             int index = arrIndexUsual[random.nextInt(arrIndexUsual.length)];
-
-            /*// use so-called open address method to avoid collision;
-            for (int i = index; ; i++) {
-                if (i == arrIndexUsual.length) {
-                    i = 0;
-                    index = 0;
-                }
-                if (!listArmy.get(index).isBane()) {
-                    break;
-                } else {
-                    index += 1;
-                }
-            }*/
             Main.outputPrintln(listArmy.get(index).getName() + " at next attack");
             Hero hero = listArmy.get(index);
             listArmy.remove(hero);
@@ -119,7 +106,7 @@ public class Army {
         int i = 0;
         for (Hero hero : listArmy) {
             if (!hero.isPrivilege()) {
-                usualGroup[i++] = listArmy.indexOf(hero); /////////
+                usualGroup[i++] = listArmy.indexOf(hero);
             }
         }
         return usualGroup;
@@ -133,7 +120,7 @@ public class Army {
         int i = 0;
         for (Hero hero : listArmy) {
             if (!hero.isBane()) {
-                usualGroup[i++] = listArmy.indexOf(hero); /////////
+                usualGroup[i++] = listArmy.indexOf(hero);
             }
         }
         return usualGroup;
@@ -145,12 +132,13 @@ public class Army {
         int i = 0;
         for (Hero hero : listArmy) {
             if (hero.isPrivilege()) {
-                privilegeGroup[i++] = listArmy.indexOf(hero); /////////
+                privilegeGroup[i++] = listArmy.indexOf(hero);
             }
         }
         return privilegeGroup;
     }
 
+    // to reach random steps
     public int[] shuffleHeroes(int[] heroes) {
         int index;
         int temp;
