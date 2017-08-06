@@ -36,7 +36,8 @@ public class Army {
     }
 
 
-    public int makePrivilege() {
+    public int makePrivilege(Hero heroPriv) {
+        heroPriv.setPrivilege(false);
         int[] arrIndexUsual = usualGroup();
         if (arrIndexUsual.length == 0) {
             Main.outputPrintln("Some Hero, however all heroes have already had improvements");
@@ -78,10 +79,10 @@ public class Army {
                 heroFighter.setPrivilege(false);
                 Main.outputPrint(heroFighter.getName() + " from privilege group, his damage is: " + damage + " HP");
             } else if (heroFighter.isBane() && this.race.equals(Race.ORC) && heroFighter.isPrivilege()) {
-                Main.outputPrint("Privilege functions of" + heroFighter.getName() + "canceled by the Voodoo bane");
+                Main.outputPrint("Privilege functions of " + heroFighter.getName() + " canceled by the Voodoo bane");
                 heroFighter.setPrivilege(false);
                 heroFighter.setBane(false);
-            } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD)) {
+            } else if (heroFighter.isBane() && this.race.equals(Race.UNDEAD) && !heroFighter.isPrivilege()) {
                 damage /= 2;
                 heroFighter.setBane(false);
                 Main.outputPrint("Damage of " + heroFighter.getName() + " was reduced by Necromancer bane to " + damage + " HP");

@@ -1,5 +1,6 @@
 package com.QATestLab;
 
+import java.util.Arrays;
 import java.util.Random;
 
 
@@ -7,6 +8,7 @@ public class Battle {
 
     private Random random = new Random();
     public static int indexOfNewPrivilege = -1;
+    private int actionCount = 0;
 
     public Battle(Army oneSide, Army anotherSide) {
 
@@ -34,6 +36,7 @@ public class Battle {
     }
 
     private void attack(Army homeArmy, Army enemyArmy) {
+        indexOfNewPrivilege = -1;
         int[] privilege = homeArmy.privilegeGroup();
         int[] usual = homeArmy.usualGroup();
         if (homeArmy.countPrivilege() != 0) {
@@ -54,22 +57,36 @@ public class Battle {
         }
     }
 
-    private void usualGroupAction(Army homeArmy, Army enemyArmy, int[] usual){
+    // if magician make improvements and this Hero has no attacked yet, he is attacking immediately
+    private void usualGroupAction(Army homeArmy, Army enemyArmy, int[] usual) {
         int indexPrivAttacked = -1;
+        int index;
         usual = homeArmy.shuffleHeroes(usual);
-        for (int i : usual) {
-            if (i == indexPrivAttacked) { ////
+        System.out.println(Arrays.toString(usual));
+        for (int i = 0; i < usual.length; i++) {
+            index = usual[i];
+            System.out.println(index);
+            if (index == indexPrivAttacked) { ////
                 continue;
             }
             if (enemyArmy.countAliveHeroes() != 0) {
-                if (indexOfNewPrivilege >= 0){
+                if (indexOfNewPrivilege >= 0) {
+                    System.out.println("ind = " + indexOfNewPrivilege);
                     if (defineIfNewPrivilegeAttacked(usual, i, indexOfNewPrivilege)) {
+                        Main.outputPrintln(homeArmy.listArmy.get(indexOfNewPrivilege).getName() + " became privilege during attack " +
+                                "and he is attacking immediately");
+                        Main.outputPrint("Action " + actionCount++ + ":  ");
                         homeArmy.listArmy.get(indexOfNewPrivilege).attack(homeArmy, enemyArmy);
                         indexPrivAttacked = indexOfNewPrivilege;
                         indexOfNewPrivilege = -1;
+                        i -=1;
+                    } else {
+                        Main.outputPrint("Action " + actionCount++ + ":  ");
+                        homeArmy.listArmy.get(index).attack(homeArmy, enemyArmy);
                     }
                 } else {
-                    homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
+                    Main.outputPrint("Action " + actionCount++ + ":  ");
+                    homeArmy.listArmy.get(index).attack(homeArmy, enemyArmy);
                 }
             } else {
                 gameOver();
@@ -80,7 +97,7 @@ public class Battle {
     private boolean defineIfNewPrivilegeAttacked(int[] arr, int i, int indexOfNewPrivilege) {
         for (int a = 0; a < arr.length; a++) {
             if (arr[a] == indexOfNewPrivilege) {
-                if ((a - i) <= 0) {
+                if ((a - i) < 0) {
                     this.indexOfNewPrivilege = -1;
                     return false;
                 } else {

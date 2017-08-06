@@ -31,7 +31,7 @@ public class HeroMagician extends Hero {
             case PEOPLE:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made improvements to ");
-                    Battle.indexOfNewPrivilege = homeArmy.makePrivilege();
+                    Battle.indexOfNewPrivilege = homeArmy.makePrivilege(this);
                 } else {
                     Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made damage by magic to ");
                     damage = 4;
@@ -40,7 +40,7 @@ public class HeroMagician extends Hero {
             case ORC:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made improvements to ");
-                    Battle.indexOfNewPrivilege = homeArmy.makePrivilege();
+                    Battle.indexOfNewPrivilege = homeArmy.makePrivilege(this);
                 } else {
                     Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) prohibit improvements of the ");
                     enemiesArmy.makeBane();
@@ -58,7 +58,7 @@ public class HeroMagician extends Hero {
             case ELF:
                 if (attackAction == 0) {
                     Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made improvements to ");
-                    Battle.indexOfNewPrivilege = homeArmy.makePrivilege();
+                    Battle.indexOfNewPrivilege = homeArmy.makePrivilege(this);
                 } else {
                     Main.outputPrint(getName() + " (" + getLiveLevelHP() + " HP) has made damage by magic to ");
                     damage = 10;
