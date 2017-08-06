@@ -44,6 +44,7 @@ public class Battle {
             privilege = homeArmy.shuffleHeroes(privilege);
             for (int i : privilege) {
                 if (enemyArmy.countAliveHeroes() != 0) {
+                    Main.outputPrint("Action " + actionCount++ + ":  ");
                     homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
                 } else {
                     gameOver(homeArmy, enemyArmy);
@@ -62,16 +63,16 @@ public class Battle {
         int indexPrivAttacked = -1;
         int index;
         usual = homeArmy.shuffleHeroes(usual);
-        System.out.println(Arrays.toString(usual));
+        // System.out.println(Arrays.toString(usual)); //for test
         for (int i = 0; i < usual.length; i++) {
             index = usual[i];
-            System.out.println(index);
-            if (index == indexPrivAttacked) { ////
+            //System.out.println(index); //for test
+            if (index == indexPrivAttacked) {
                 continue;
             }
             if (enemyArmy.countAliveHeroes() != 0) {
                 if (indexOfNewPrivilege >= 0) {
-                    System.out.println("ind = " + indexOfNewPrivilege);
+                    //System.out.println("ind = " + indexOfNewPrivilege); //for test
                     if (defineIfNewPrivilegeAttacked(usual, i, indexOfNewPrivilege)) {
                         Main.outputPrintln(homeArmy.listArmy.get(indexOfNewPrivilege).getName() + " became privilege during attack " +
                                 "and he is attacking immediately");
