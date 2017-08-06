@@ -32,7 +32,7 @@ public class Battle {
             Main.outputPrintln(oneSide.getRace() + " have " + oneSide.listArmy.size() + " alive heroes");
             Main.outputPrintln(anotherSide.getRace() + " have " + anotherSide.listArmy.size() + " alive heroes");
         } while (oneSide.listArmy.size() != 0 && anotherSide.listArmy.size() != 0);
-        gameOver();
+        gameOver(oneSide, anotherSide);
     }
 
     private void attack(Army homeArmy, Army enemyArmy) {
@@ -46,7 +46,7 @@ public class Battle {
                 if (enemyArmy.countAliveHeroes() != 0) {
                     homeArmy.listArmy.get(i).attack(homeArmy, enemyArmy);
                 } else {
-                    gameOver();
+                    gameOver(homeArmy, enemyArmy);
                 }
             }
             Main.outputPrintln("*** The next attacking Heroes from usual group ***");
@@ -89,7 +89,7 @@ public class Battle {
                     homeArmy.listArmy.get(index).attack(homeArmy, enemyArmy);
                 }
             } else {
-                gameOver();
+                gameOver(homeArmy, enemyArmy);
             }
         }
     }
@@ -108,8 +108,24 @@ public class Battle {
         return false;
     }
 
-    private void gameOver() {
+    private void gameOver(Army oneSide, Army anotherSide) {
+        Main.outputPrintln(" ");
         Main.outputPrintln("Game over");
+
+        if (oneSide.listArmy.size() != 0) {
+            Main.outputPrintln("!!!" + oneSide.getRace() + " are winners!!!");
+            Main.outputPrintln("At winners army have left alive Heroes:");
+            for (Hero hero : oneSide.listArmy) {
+                Main.outputPrintln(hero.getName() + " with live level " + hero.getLiveLevelHP() + " HP");
+            }
+        } else {
+            Main.outputPrintln("!!!" + anotherSide.getRace() + " are winners!!!");
+            Main.outputPrintln("At winners army have left alive Heroes:");
+            for (Hero hero : anotherSide.listArmy) {
+                Main.outputPrintln(hero.getName() + " with live level " + hero.getLiveLevelHP() + " HP");
+            }
+        }
+
         if (Main.logfile != null) {
             Main.logfile.close();
         }

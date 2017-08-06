@@ -1,203 +1,260 @@
-!!!People fight against Orc!!!
+!!!Elf fight against Undead!!!
  
-Orc is attacking, step #1:
+Elf is attacking, step #1:
 *** There is no Heroes in privilege group ***
-Action 0:  Orc's Warrior #3 (100.0 HP) has attacked by truncheon People's Archer #1 (100.0 HP);   -  People's Archer #1 live level became 80.0 HP
-Action 1:  Orc's Archer #1 (100.0 HP) shot from the bow People's Archer #2 (100.0 HP);   -  People's Archer #2 live level became 97.0 HP
-Action 2:  Orc's Warrior #2 (100.0 HP) has attacked by truncheon People's Archer #2 (97.0 HP);   -  People's Archer #2 live level became 77.0 HP
-Action 3:  Orc's Warrior #1 (100.0 HP) has attacked by truncheon People's Archer #1 (80.0 HP);   -  People's Archer #1 live level became 60.0 HP
-Action 4:  Orc's Voodoo (100.0 HP) prohibit improvements of the People's Archer #1 at next attack
-Action 5:  Orc's Archer #3 (100.0 HP) shot from the bow People's Warrior #1 (100.0 HP);   -  People's Warrior #1 live level became 97.0 HP
-Action 6:  Orc's Archer #2 (100.0 HP) punch by knife People's Warrior #2 (100.0 HP);   -  People's Warrior #2 live level became 98.0 HP
-Action 7:  Orc's Warrior #4 (100.0 HP) has attacked by truncheon People's Warrior #1 (97.0 HP);   -  People's Warrior #1 live level became 77.0 HP
+Action 0:  Elf's Archer #1 (100.0 HP) shot from the bow Undead's Zombie #1 (100.0 HP);   -  Undead's Zombie #1 live level became 93.0 HP
+Action 1:  Elf's Warrior #4 (100.0 HP) has attacked by sword Undead's Hunter #2 (100.0 HP);   -  Undead's Hunter #2 live level became 85.0 HP
+Action 2:  Elf's Archer #2 (100.0 HP) shot from the bow Undead's Hunter #1 (100.0 HP);   -  Undead's Hunter #1 live level became 93.0 HP
+Action 3:  Elf's Magician (100.0 HP) has made damage by magic to Undead's Hunter #1 (93.0 HP);   -  Undead's Hunter #1 live level became 83.0 HP
+Action 4:  Elf's Warrior #3 (100.0 HP) has attacked by sword Undead's Zombie #1 (93.0 HP);   -  Undead's Zombie #1 live level became 78.0 HP
+Action 5:  Elf's Warrior #2 (100.0 HP) has attacked by sword Undead's Hunter #2 (85.0 HP);   -  Undead's Hunter #2 live level became 70.0 HP
+Action 6:  Elf's Archer #3 (100.0 HP) attack an enemy Undead's Zombie #3 (100.0 HP);   -  Undead's Zombie #3 live level became 97.0 HP
+Action 7:  Elf's Warrior #1 (100.0 HP) has attacked by sword Undead's Necromancer (100.0 HP);   -  Undead's Necromancer live level became 85.0 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-People is attacking, step #2:
+Elf is attacking, step #2:
 *** There is no Heroes in privilege group ***
-Action 8:  People's Archer #2 (77.0 HP) attack an enemy Orc's Warrior #3 (100.0 HP);   -  Orc's Warrior #3 live level became 97.0 HP
-Action 9:  People's Archer #3 (100.0 HP) attack an enemy Orc's Archer #1 (100.0 HP);   -  Orc's Archer #1 live level became 97.0 HP
-Action 10:  People's Warrior #1 (77.0 HP) has attacked by sword Orc's Warrior #4 (100.0 HP);   -  Orc's Warrior #4 live level became 82.0 HP
-Action 11:  People's Magician (100.0 HP) has made damage by magic to Orc's Archer #1 (97.0 HP);   -  Orc's Archer #1 live level became 93.0 HP
-Action 12:  People's Warrior #4 (100.0 HP) has attacked by sword Orc's Archer #3 (100.0 HP);   -  Orc's Archer #3 live level became 82.0 HP
-Action 13:  People's Warrior #3 (100.0 HP) has attacked by sword Orc's Warrior #2 (100.0 HP);   -  Orc's Warrior #2 live level became 82.0 HP
-Action 14:  People's Archer #1 (60.0 HP) shot from the crossbow Orc's Archer #3 (82.0 HP);   -  Orc's Archer #3 live level became 77.0 HP
-Action 15:  People's Warrior #2 (98.0 HP) has attacked by sword Orc's Archer #2 (100.0 HP);   -  Orc's Archer #2 live level became 82.0 HP
+Action 8:  Elf's Magician (100.0 HP) has made improvements to Elf's Archer #2
+Elf's Archer #2 became privilege during attack and he is attacking immediately
+Action 9:  Elf's Archer #2 (100.0 HP) attack an enemy Undead's Zombie #4 (100.0 HP); Elf's Archer #2 from privilege group, his damage is: 4.5 HP  -  Undead's Zombie #4 live level became 95.5 HP
+Action 10:  Elf's Warrior #4 (100.0 HP) has attacked by sword Undead's Necromancer (85.0 HP);   -  Undead's Necromancer live level became 70.0 HP
+Action 11:  Elf's Warrior #3 (100.0 HP) has attacked by sword Undead's Necromancer (70.0 HP);   -  Undead's Necromancer live level became 55.0 HP
+Action 12:  Elf's Warrior #2 (100.0 HP) has attacked by sword Undead's Zombie #3 (97.0 HP);   -  Undead's Zombie #3 live level became 82.0 HP
+Action 13:  Elf's Archer #3 (100.0 HP) shot from the bow Undead's Zombie #1 (78.0 HP);   -  Undead's Zombie #1 live level became 71.0 HP
+Action 14:  Elf's Warrior #1 (100.0 HP) has attacked by sword Undead's Zombie #3 (82.0 HP);   -  Undead's Zombie #3 live level became 67.0 HP
+Action 15:  Elf's Archer #1 (100.0 HP) attack an enemy Undead's Zombie #1 (71.0 HP);   -  Undead's Zombie #1 live level became 68.0 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-Orc is attacking, step #3:
+Undead is attacking, step #3:
 *** There is no Heroes in privilege group ***
-Action 16:  Orc's Warrior #4 (82.0 HP) has attacked by truncheon People's Warrior #4 (100.0 HP);   -  People's Warrior #4 live level became 80.0 HP
-Action 17:  Orc's Voodoo (100.0 HP) has made improvements to Orc's Archer #1
-Orc's Archer #1 became privilege during attack and he is attacking immediately
-Action 18:  Orc's Archer #1 (93.0 HP) punch by knife People's Magician (100.0 HP); Orc's Archer #1 from privilege group, his damage is: 3.0 HP  -  People's Magician live level became 97.0 HP
-Action 19:  Orc's Archer #2 (82.0 HP) punch by knife People's Warrior #3 (100.0 HP);   -  People's Warrior #3 live level became 98.0 HP
-Action 20:  Orc's Archer #3 (77.0 HP) shot from the bow People's Magician (97.0 HP);   -  People's Magician live level became 94.0 HP
-Action 21:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Archer #3 (100.0 HP);   -  People's Archer #3 live level became 80.0 HP
-Action 22:  Orc's Warrior #2 (82.0 HP) has attacked by truncheon People's Magician (94.0 HP);   -  People's Magician live level became 74.0 HP
-Action 23:  Orc's Warrior #1 (100.0 HP) has attacked by truncheon People's Warrior #2 (98.0 HP);   -  People's Warrior #2 live level became 78.0 HP
+Action 16:  Undead's Zombie #2 (100.0 HP) has attacked by spear Elf's Archer #3 (100.0 HP);   -  Elf's Archer #3 live level became 82.0 HP
+Action 17:  Undead's Hunter #3 (100.0 HP) shot from the bow Elf's Archer #3 (82.0 HP);   -  Elf's Archer #3 live level became 78.0 HP
+Action 18:  Undead's Zombie #3 (67.0 HP) has attacked by spear Elf's Archer #2 (100.0 HP);   -  Elf's Archer #2 live level became 82.0 HP
+Action 19:  Undead's Zombie #1 (68.0 HP) has attacked by spear Elf's Archer #3 (78.0 HP);   -  Elf's Archer #3 live level became 60.0 HP
+Action 20:  Undead's Hunter #1 (83.0 HP) attack an enemy Elf's Warrior #3 (100.0 HP);   -  Elf's Warrior #3 live level became 98.0 HP
+Action 21:  Undead's Necromancer (55.0 HP) has attacked Elf's Archer #3 (60.0 HP);   -  Elf's Archer #3 live level became 55.0 HP
+Action 22:  Undead's Zombie #4 (95.5 HP) has attacked by spear Elf's Warrior #1 (100.0 HP);   -  Elf's Warrior #1 live level became 82.0 HP
+Action 23:  Undead's Hunter #2 (70.0 HP) attack an enemy Elf's Warrior #4 (100.0 HP);   -  Elf's Warrior #4 live level became 98.0 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-Orc is attacking, step #4:
+Elf is attacking, step #4:
 *** There is no Heroes in privilege group ***
-Action 24:  Orc's Archer #1 (93.0 HP) punch by knife People's Archer #3 (80.0 HP);   -  People's Archer #3 live level became 78.0 HP
-Action 25:  Orc's Warrior #4 (82.0 HP) has attacked by truncheon People's Archer #1 (60.0 HP);   -  People's Archer #1 live level became 40.0 HP
-Action 26:  Orc's Archer #3 (77.0 HP) shot from the bow People's Archer #1 (40.0 HP);   -  People's Archer #1 live level became 37.0 HP
-Action 27:  Orc's Archer #2 (82.0 HP) shot from the bow People's Magician (74.0 HP);   -  People's Magician live level became 71.0 HP
-Action 28:  Orc's Warrior #1 (100.0 HP) has attacked by truncheon People's Magician (71.0 HP);   -  People's Magician live level became 51.0 HP
-Action 29:  Orc's Voodoo (100.0 HP) has made improvements to Orc's Archer #3
-Action 30:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Archer #2 (77.0 HP);   -  People's Archer #2 live level became 57.0 HP
-Action 31:  Orc's Warrior #2 (82.0 HP) has attacked by truncheon People's Magician (51.0 HP);   -  People's Magician live level became 31.0 HP
+Action 24:  Elf's Warrior #4 (98.0 HP) has attacked by sword Undead's Zombie #2 (100.0 HP);   -  Undead's Zombie #2 live level became 85.0 HP
+Action 25:  Elf's Archer #2 (82.0 HP) shot from the bow Undead's Hunter #1 (83.0 HP);   -  Undead's Hunter #1 live level became 76.0 HP
+Action 26:  Elf's Warrior #1 (82.0 HP) has attacked by sword Undead's Necromancer (55.0 HP);   -  Undead's Necromancer live level became 40.0 HP
+Action 27:  Elf's Magician (100.0 HP) has made improvements to Elf's Warrior #4
+Action 28:  Elf's Warrior #2 (100.0 HP) has attacked by sword Undead's Zombie #4 (95.5 HP);   -  Undead's Zombie #4 live level became 80.5 HP
+Action 29:  Elf's Archer #3 (55.0 HP) attack an enemy Undead's Zombie #2 (85.0 HP);   -  Undead's Zombie #2 live level became 82.0 HP
+Action 30:  Elf's Warrior #3 (98.0 HP) has attacked by sword Undead's Zombie #4 (80.5 HP);   -  Undead's Zombie #4 live level became 65.5 HP
+Action 31:  Elf's Archer #1 (100.0 HP) attack an enemy Undead's Hunter #2 (70.0 HP);   -  Undead's Hunter #2 live level became 67.0 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-People is attacking, step #5:
-*** There is no Heroes in privilege group ***
-Action 32:  People's Archer #1 (37.0 HP) attack an enemy Orc's Archer #3 (77.0 HP);   -  Orc's Archer #3 live level became 74.0 HP
-Action 33:  People's Warrior #1 (77.0 HP) has attacked by sword Orc's Warrior #1 (100.0 HP);   -  Orc's Warrior #1 live level became 82.0 HP
-Action 34:  People's Warrior #4 (80.0 HP) has attacked by sword Orc's Archer #3 (74.0 HP);   -  Orc's Archer #3 live level became 56.0 HP
-Action 35:  People's Warrior #2 (78.0 HP) has attacked by sword Orc's Warrior #2 (82.0 HP);   -  Orc's Warrior #2 live level became 64.0 HP
-Action 36:  People's Magician (31.0 HP) has made damage by magic to Orc's Archer #2 (82.0 HP);   -  Orc's Archer #2 live level became 78.0 HP
-Action 37:  People's Archer #3 (78.0 HP) attack an enemy Orc's Archer #1 (93.0 HP);   -  Orc's Archer #1 live level became 90.0 HP
-Action 38:  People's Warrior #3 (98.0 HP) has attacked by sword Orc's Archer #1 (90.0 HP);   -  Orc's Archer #1 live level became 72.0 HP
-Action 39:  People's Archer #2 (57.0 HP) shot from the crossbow Orc's Warrior #1 (82.0 HP);   -  Orc's Warrior #1 live level became 77.0 HP
------------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
- 
-Orc is attacking, step #6:
+Elf is attacking, step #5:
 *** First is attacking Heroes from privilege group ***
-Orc's Archer #3 (56.0 HP) punch by knife People's Warrior #3 (98.0 HP); Orc's Archer #3 from privilege group, his damage is: 3.0 HP  -  People's Warrior #3 live level became 95.0 HP
+Elf's Warrior #4 (98.0 HP) has attacked by sword Undead's Hunter #2 (67.0 HP); Elf's Warrior #4 from privilege group, his damage is: 22.5 HP  -  Undead's Hunter #2 live level became 44.5 HP
 *** The next attacking Heroes from usual group ***
-Action 40:  Orc's Archer #1 (72.0 HP) shot from the bow People's Warrior #2 (78.0 HP);   -  People's Warrior #2 live level became 75.0 HP
-Action 41:  Orc's Warrior #4 (82.0 HP) has attacked by truncheon People's Warrior #3 (95.0 HP);   -  People's Warrior #3 live level became 75.0 HP
-Action 42:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Archer #3 (78.0 HP);   -  People's Archer #3 live level became 58.0 HP
-Action 43:  Orc's Warrior #1 (77.0 HP) has attacked by truncheon People's Warrior #3 (75.0 HP);   -  People's Warrior #3 live level became 55.0 HP
-Action 44:  Orc's Voodoo (100.0 HP) has made improvements to Orc's Voodoo
-Action 45:  Orc's Warrior #2 (64.0 HP) has attacked by truncheon People's Archer #2 (57.0 HP);   -  People's Archer #2 live level became 37.0 HP
-Action 46:  Orc's Archer #2 (78.0 HP) shot from the bow People's Warrior #4 (80.0 HP);   -  People's Warrior #4 live level became 77.0 HP
+Action 32:  Elf's Warrior #1 (82.0 HP) has attacked by sword Undead's Zombie #3 (67.0 HP);   -  Undead's Zombie #3 live level became 52.0 HP
+Action 33:  Elf's Archer #2 (82.0 HP) attack an enemy Undead's Zombie #2 (82.0 HP);   -  Undead's Zombie #2 live level became 79.0 HP
+Action 34:  Elf's Archer #3 (55.0 HP) shot from the bow Undead's Zombie #2 (79.0 HP);   -  Undead's Zombie #2 live level became 72.0 HP
+Action 35:  Elf's Magician (100.0 HP) has made damage by magic to Undead's Hunter #1 (76.0 HP);   -  Undead's Hunter #1 live level became 66.0 HP
+Action 36:  Elf's Warrior #3 (98.0 HP) has attacked by sword Undead's Zombie #3 (52.0 HP);   -  Undead's Zombie #3 live level became 37.0 HP
+Action 37:  Elf's Archer #1 (100.0 HP) attack an enemy Undead's Hunter #1 (66.0 HP);   -  Undead's Hunter #1 live level became 63.0 HP
+Action 38:  Elf's Warrior #2 (100.0 HP) has attacked by sword Undead's Zombie #4 (65.5 HP);   -  Undead's Zombie #4 live level became 50.5 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-Orc is attacking, step #7:
+Elf is attacking, step #6:
+*** There is no Heroes in privilege group ***
+Action 39:  Elf's Archer #1 (100.0 HP) shot from the bow Undead's Hunter #1 (63.0 HP);   -  Undead's Hunter #1 live level became 56.0 HP
+Action 40:  Elf's Archer #3 (55.0 HP) shot from the bow Undead's Hunter #3 (100.0 HP);   -  Undead's Hunter #3 live level became 93.0 HP
+Action 41:  Elf's Warrior #2 (100.0 HP) has attacked by sword Undead's Hunter #3 (93.0 HP);   -  Undead's Hunter #3 live level became 78.0 HP
+Action 42:  Elf's Warrior #1 (82.0 HP) has attacked by sword Undead's Zombie #4 (50.5 HP);   -  Undead's Zombie #4 live level became 35.5 HP
+Action 43:  Elf's Archer #2 (82.0 HP) shot from the bow Undead's Necromancer (40.0 HP);   -  Undead's Necromancer live level became 33.0 HP
+Action 44:  Elf's Warrior #3 (98.0 HP) has attacked by sword Undead's Hunter #3 (78.0 HP);   -  Undead's Hunter #3 live level became 63.0 HP
+Action 45:  Elf's Warrior #4 (98.0 HP) has attacked by sword Undead's Zombie #2 (72.0 HP);   -  Undead's Zombie #2 live level became 57.0 HP
+Action 46:  Elf's Magician (100.0 HP) has made improvements to Elf's Archer #2
+-----------------------------------
+Elf have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Undead is attacking, step #7:
+*** There is no Heroes in privilege group ***
+Action 47:  Undead's Zombie #2 (57.0 HP) has attacked by spear Elf's Archer #1 (100.0 HP);   -  Elf's Archer #1 live level became 82.0 HP
+Action 48:  Undead's Zombie #4 (35.5 HP) has attacked by spear Elf's Warrior #2 (100.0 HP);   -  Elf's Warrior #2 live level became 82.0 HP
+Action 49:  Undead's Hunter #2 (44.5 HP) shot from the bow Elf's Archer #1 (82.0 HP);   -  Elf's Archer #1 live level became 78.0 HP
+Action 50:  Undead's Necromancer (33.0 HP) has attacked Elf's Warrior #4 (98.0 HP);   -  Elf's Warrior #4 live level became 93.0 HP
+Action 51:  Undead's Zombie #1 (68.0 HP) has attacked by spear Elf's Archer #2 (82.0 HP);   -  Elf's Archer #2 live level became 64.0 HP
+Action 52:  Undead's Hunter #3 (63.0 HP) attack an enemy Elf's Archer #3 (55.0 HP);   -  Elf's Archer #3 live level became 53.0 HP
+Action 53:  Undead's Zombie #3 (37.0 HP) has attacked by spear Elf's Warrior #4 (93.0 HP);   -  Elf's Warrior #4 live level became 75.0 HP
+Action 54:  Undead's Hunter #1 (56.0 HP) attack an enemy Elf's Archer #1 (78.0 HP);   -  Elf's Archer #1 live level became 76.0 HP
+-----------------------------------
+Elf have 8 alive heroes
+Undead have 8 alive heroes
+ 
+Elf is attacking, step #8:
 *** First is attacking Heroes from privilege group ***
-Orc's Voodoo (100.0 HP) has made improvements to Orc's Warrior #3
+Elf's Archer #2 (64.0 HP) attack an enemy Undead's Necromancer (33.0 HP); Elf's Archer #2 from privilege group, his damage is: 4.5 HP  -  Undead's Necromancer live level became 28.5 HP
 *** The next attacking Heroes from usual group ***
-Orc's Warrior #3 became privilege during attack and he is attacking immediately
-Action 47:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Archer #2 (37.0 HP); Orc's Warrior #3 from privilege group, his damage is: 30.0 HP  -  People's Archer #2 live level became 7.0 HP
-Action 48:  Orc's Warrior #1 (77.0 HP) has attacked by truncheon People's Warrior #1 (77.0 HP);   -  People's Warrior #1 live level became 57.0 HP
-Action 49:  Orc's Archer #3 (56.0 HP) shot from the bow People's Warrior #2 (75.0 HP);   -  People's Warrior #2 live level became 72.0 HP
-Action 50:  Orc's Warrior #4 (82.0 HP) has attacked by truncheon People's Warrior #4 (77.0 HP);   -  People's Warrior #4 live level became 57.0 HP
-Action 51:  Orc's Archer #1 (72.0 HP) punch by knife People's Magician (31.0 HP);   -  People's Magician live level became 29.0 HP
-Action 52:  Orc's Archer #2 (78.0 HP) shot from the bow People's Archer #3 (58.0 HP);   -  People's Archer #3 live level became 55.0 HP
-Action 53:  Orc's Warrior #2 (64.0 HP) has attacked by truncheon People's Archer #1 (37.0 HP);   -  People's Archer #1 live level became 17.0 HP
+Action 55:  Elf's Archer #3 (53.0 HP) shot from the bow Undead's Zombie #2 (57.0 HP);   -  Undead's Zombie #2 live level became 50.0 HP
+Action 56:  Elf's Magician (100.0 HP) has made improvements to Elf's Archer #3
+Action 57:  Elf's Warrior #4 (75.0 HP) has attacked by sword Undead's Zombie #3 (37.0 HP);   -  Undead's Zombie #3 live level became 22.0 HP
+Action 58:  Elf's Archer #1 (76.0 HP) attack an enemy Undead's Zombie #4 (35.5 HP);   -  Undead's Zombie #4 live level became 32.5 HP
+Action 59:  Elf's Warrior #2 (82.0 HP) has attacked by sword Undead's Hunter #3 (63.0 HP);   -  Undead's Hunter #3 live level became 48.0 HP
+Action 60:  Elf's Warrior #1 (82.0 HP) has attacked by sword Undead's Hunter #3 (48.0 HP);   -  Undead's Hunter #3 live level became 33.0 HP
+Action 61:  Elf's Warrior #3 (98.0 HP) has attacked by sword Undead's Zombie #1 (68.0 HP);   -  Undead's Zombie #1 live level became 53.0 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-People is attacking, step #8:
+Undead is attacking, step #9:
 *** There is no Heroes in privilege group ***
-Action 54:  People's Warrior #4 (57.0 HP) has attacked by sword Orc's Warrior #1 (77.0 HP);   -  Orc's Warrior #1 live level became 59.0 HP
-Action 55:  People's Warrior #1 (57.0 HP) has attacked by sword Orc's Archer #2 (78.0 HP);   -  Orc's Archer #2 live level became 60.0 HP
-Action 56:  People's Magician (29.0 HP) has made damage by magic to Orc's Warrior #4 (82.0 HP);   -  Orc's Warrior #4 live level became 78.0 HP
-Action 57:  People's Archer #3 (55.0 HP) attack an enemy Orc's Warrior #4 (78.0 HP);   -  Orc's Warrior #4 live level became 75.0 HP
-Action 58:  People's Archer #2 (7.0 HP) attack an enemy Orc's Warrior #1 (59.0 HP);   -  Orc's Warrior #1 live level became 56.0 HP
-Action 59:  People's Archer #1 (17.0 HP) shot from the crossbow Orc's Archer #3 (56.0 HP);   -  Orc's Archer #3 live level became 51.0 HP
-Action 60:  People's Warrior #3 (55.0 HP) has attacked by sword Orc's Archer #3 (51.0 HP);   -  Orc's Archer #3 live level became 33.0 HP
-Action 61:  People's Warrior #2 (72.0 HP) has attacked by sword Orc's Archer #2 (60.0 HP);   -  Orc's Archer #2 live level became 42.0 HP
+Action 62:  Undead's Necromancer (28.5 HP) has reduced force of the Elf's Warrior #2 at next attack
+Action 63:  Undead's Hunter #3 (33.0 HP) shot from the bow Elf's Warrior #1 (82.0 HP);   -  Elf's Warrior #1 live level became 78.0 HP
+Action 64:  Undead's Hunter #1 (56.0 HP) attack an enemy Elf's Archer #1 (76.0 HP);   -  Elf's Archer #1 live level became 74.0 HP
+Action 65:  Undead's Zombie #3 (22.0 HP) has attacked by spear Elf's Warrior #4 (75.0 HP);   -  Elf's Warrior #4 live level became 57.0 HP
+Action 66:  Undead's Zombie #2 (50.0 HP) has attacked by spear Elf's Archer #2 (64.0 HP);   -  Elf's Archer #2 live level became 46.0 HP
+Action 67:  Undead's Zombie #4 (32.5 HP) has attacked by spear Elf's Archer #2 (46.0 HP);   -  Elf's Archer #2 live level became 28.0 HP
+Action 68:  Undead's Zombie #1 (53.0 HP) has attacked by spear Elf's Magician (100.0 HP);   -  Elf's Magician live level became 82.0 HP
+Action 69:  Undead's Hunter #2 (44.5 HP) attack an enemy Elf's Warrior #1 (78.0 HP);   -  Elf's Warrior #1 live level became 76.0 HP
 -----------------------------------
-People have 8 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-Orc is attacking, step #9:
+Undead is attacking, step #10:
 *** There is no Heroes in privilege group ***
-Action 62:  Orc's Warrior #1 (56.0 HP) has attacked by truncheon People's Warrior #3 (55.0 HP);   -  People's Warrior #3 live level became 35.0 HP
-Action 63:  Orc's Warrior #2 (64.0 HP) has attacked by truncheon People's Archer #1 (17.0 HP);   -  People's Archer #1 is killed
-Action 64:  Orc's Archer #3 (33.0 HP) punch by knife People's Archer #2 (7.0 HP);   -  People's Archer #2 live level became 5.0 HP
-Action 65:  Orc's Archer #2 (42.0 HP) shot from the bow People's Warrior #4 (57.0 HP);   -  People's Warrior #4 live level became 54.0 HP
-Action 66:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Warrior #1 (57.0 HP);   -  People's Warrior #1 live level became 37.0 HP
-Action 67:  Orc's Voodoo (100.0 HP) prohibit improvements of the People's Warrior #3 at next attack
-Action 68:  Orc's Archer #1 (72.0 HP) shot from the bow People's Archer #3 (55.0 HP);   -  People's Archer #3 live level became 52.0 HP
-Action 69:  Orc's Warrior #4 (75.0 HP) has attacked by truncheon People's Warrior #4 (54.0 HP);   -  People's Warrior #4 live level became 34.0 HP
+Action 70:  Undead's Hunter #2 (44.5 HP) shot from the bow Elf's Archer #1 (74.0 HP);   -  Elf's Archer #1 live level became 70.0 HP
+Action 71:  Undead's Hunter #3 (33.0 HP) shot from the bow Elf's Warrior #3 (98.0 HP);   -  Elf's Warrior #3 live level became 94.0 HP
+Action 72:  Undead's Hunter #1 (56.0 HP) attack an enemy Elf's Archer #1 (70.0 HP);   -  Elf's Archer #1 live level became 68.0 HP
+Action 73:  Undead's Necromancer (28.5 HP) has reduced force of the Elf's Warrior #3 at next attack
+Action 74:  Undead's Zombie #3 (22.0 HP) has attacked by spear Elf's Archer #1 (68.0 HP);   -  Elf's Archer #1 live level became 50.0 HP
+Action 75:  Undead's Zombie #4 (32.5 HP) has attacked by spear Elf's Warrior #1 (76.0 HP);   -  Elf's Warrior #1 live level became 58.0 HP
+Action 76:  Undead's Zombie #1 (53.0 HP) has attacked by spear Elf's Warrior #2 (82.0 HP);   -  Elf's Warrior #2 live level became 64.0 HP
+Action 77:  Undead's Zombie #2 (50.0 HP) has attacked by spear Elf's Magician (82.0 HP);   -  Elf's Magician live level became 64.0 HP
 -----------------------------------
-People have 7 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-Orc is attacking, step #10:
+Undead is attacking, step #11:
 *** There is no Heroes in privilege group ***
-Action 70:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Warrior #1 (37.0 HP);   -  People's Warrior #1 live level became 17.0 HP
-Action 71:  Orc's Archer #1 (72.0 HP) punch by knife People's Warrior #1 (17.0 HP);   -  People's Warrior #1 live level became 15.0 HP
-Action 72:  Orc's Warrior #4 (75.0 HP) has attacked by truncheon People's Warrior #3 (35.0 HP);   -  People's Warrior #3 live level became 15.0 HP
-Action 73:  Orc's Warrior #1 (56.0 HP) has attacked by truncheon People's Warrior #2 (72.0 HP);   -  People's Warrior #2 live level became 52.0 HP
-Action 74:  Orc's Archer #3 (33.0 HP) punch by knife People's Magician (29.0 HP);   -  People's Magician live level became 27.0 HP
-Action 75:  Orc's Voodoo (100.0 HP) prohibit improvements of the People's Archer #2 at next attack
-Action 76:  Orc's Warrior #2 (64.0 HP) has attacked by truncheon People's Archer #2 (5.0 HP);   -  People's Archer #2 is killed
-Action 77:  Orc's Archer #2 (42.0 HP) punch by knife People's Warrior #4 (34.0 HP);   -  People's Warrior #4 live level became 32.0 HP
+Action 78:  Undead's Hunter #3 (33.0 HP) attack an enemy Elf's Archer #1 (50.0 HP);   -  Elf's Archer #1 live level became 48.0 HP
+Action 79:  Undead's Necromancer (28.5 HP) has attacked Elf's Warrior #4 (57.0 HP);   -  Elf's Warrior #4 live level became 52.0 HP
+Action 80:  Undead's Hunter #2 (44.5 HP) attack an enemy Elf's Warrior #4 (52.0 HP);   -  Elf's Warrior #4 live level became 50.0 HP
+Action 81:  Undead's Hunter #1 (56.0 HP) attack an enemy Elf's Warrior #2 (64.0 HP);   -  Elf's Warrior #2 live level became 62.0 HP
+Action 82:  Undead's Zombie #4 (32.5 HP) has attacked by spear Elf's Warrior #3 (94.0 HP);   -  Elf's Warrior #3 live level became 76.0 HP
+Action 83:  Undead's Zombie #3 (22.0 HP) has attacked by spear Elf's Warrior #2 (62.0 HP);   -  Elf's Warrior #2 live level became 44.0 HP
+Action 84:  Undead's Zombie #1 (53.0 HP) has attacked by spear Elf's Magician (64.0 HP);   -  Elf's Magician live level became 46.0 HP
+Action 85:  Undead's Zombie #2 (50.0 HP) has attacked by spear Elf's Warrior #1 (58.0 HP);   -  Elf's Warrior #1 live level became 40.0 HP
 -----------------------------------
-People have 6 alive heroes
-Orc have 8 alive heroes
+Elf have 8 alive heroes
+Undead have 8 alive heroes
  
-Orc is attacking, step #11:
-*** There is no Heroes in privilege group ***
-Action 78:  Orc's Archer #1 (72.0 HP) punch by knife People's Warrior #2 (52.0 HP);   -  People's Warrior #2 live level became 50.0 HP
-Action 79:  Orc's Warrior #1 (56.0 HP) has attacked by truncheon People's Magician (27.0 HP);   -  People's Magician live level became 7.0 HP
-Action 80:  Orc's Warrior #4 (75.0 HP) has attacked by truncheon People's Warrior #3 (15.0 HP);   -  People's Warrior #3 is killed
-Action 81:  Orc's Warrior #2 (64.0 HP) has attacked by truncheon People's Archer #3 (52.0 HP);   -  People's Archer #3 live level became 32.0 HP
-Action 82:  Orc's Archer #2 (42.0 HP) shot from the bow People's Warrior #4 (32.0 HP);   -  People's Warrior #4 live level became 29.0 HP
-Action 83:  Orc's Voodoo (100.0 HP) prohibit improvements of the People's Magician at next attack
-Action 84:  Orc's Warrior #3 (97.0 HP) has attacked by truncheon People's Warrior #4 (29.0 HP);   -  People's Warrior #4 live level became 9.0 HP
-Action 85:  Orc's Archer #3 (33.0 HP) shot from the bow People's Magician (7.0 HP);   -  People's Magician live level became 4.0 HP
------------------------------------
-People have 5 alive heroes
-Orc have 8 alive heroes
- 
-People is attacking, step #12:
-*** There is no Heroes in privilege group ***
-Action 86:  People's Warrior #4 (9.0 HP) has attacked by sword Orc's Voodoo (100.0 HP);   -  Orc's Voodoo live level became 82.0 HP
-Action 87:  People's Warrior #1 (15.0 HP) has attacked by sword Orc's Warrior #3 (97.0 HP);   -  Orc's Warrior #3 live level became 79.0 HP
-Action 88:  People's Magician (4.0 HP) has made damage by magic to Orc's Warrior #2 (64.0 HP);   -  Orc's Warrior #2 live level became 60.0 HP
-Action 89:  People's Warrior #2 (50.0 HP) has attacked by sword Orc's Warrior #1 (56.0 HP);   -  Orc's Warrior #1 live level became 38.0 HP
-Action 90:  People's Archer #3 (32.0 HP) shot from the crossbow Orc's Warrior #2 (60.0 HP);   -  Orc's Warrior #2 live level became 55.0 HP
------------------------------------
-People have 5 alive heroes
-Orc have 8 alive heroes
- 
-People is attacking, step #13:
-*** There is no Heroes in privilege group ***
-Action 91:  People's Magician (4.0 HP) has made damage by magic to Orc's Archer #1 (72.0 HP);   -  Orc's Archer #1 live level became 68.0 HP
-Action 92:  People's Archer #3 (32.0 HP) attack an enemy Orc's Archer #1 (68.0 HP);   -  Orc's Archer #1 live level became 65.0 HP
-Action 93:  People's Warrior #1 (15.0 HP) has attacked by sword Orc's Warrior #2 (55.0 HP);   -  Orc's Warrior #2 live level became 37.0 HP
-Action 94:  People's Warrior #2 (50.0 HP) has attacked by sword Orc's Warrior #4 (75.0 HP);   -  Orc's Warrior #4 live level became 57.0 HP
-Action 95:  People's Warrior #4 (9.0 HP) has attacked by sword Orc's Archer #1 (65.0 HP);   -  Orc's Archer #1 live level became 47.0 HP
------------------------------------
-People have 5 alive heroes
-Orc have 8 alive heroes
- 
-Orc is attacking, step #14:
-*** There is no Heroes in privilege group ***
-Action 96:  Orc's Warrior #1 (38.0 HP) has attacked by truncheon People's Warrior #1 (15.0 HP);   -  People's Warrior #1 is killed
-Action 97:  Orc's Archer #3 (33.0 HP) shot from the bow People's Warrior #4 (9.0 HP);   -  People's Warrior #4 live level became 6.0 HP
-Action 98:  Orc's Warrior #4 (57.0 HP) has attacked by truncheon People's Archer #3 (32.0 HP);   -  People's Archer #3 live level became 12.0 HP
-Action 99:  Orc's Archer #1 (47.0 HP) punch by knife People's Warrior #2 (50.0 HP);   -  People's Warrior #2 live level became 48.0 HP
-Action 100:  Orc's Voodoo (82.0 HP) has made improvements to Orc's Warrior #1
-Action 101:  Orc's Warrior #2 (37.0 HP) has attacked by truncheon People's Warrior #4 (6.0 HP);   -  People's Warrior #4 is killed
-Action 102:  Orc's Warrior #3 (79.0 HP) has attacked by truncheon People's Magician (4.0 HP);   -  People's Magician is killed
-Action 103:  Orc's Archer #2 (42.0 HP) punch by knife People's Archer #3 (12.0 HP);   -  People's Archer #3 live level became 10.0 HP
------------------------------------
-People have 2 alive heroes
-Orc have 8 alive heroes
- 
-Orc is attacking, step #15:
+Elf is attacking, step #12:
 *** First is attacking Heroes from privilege group ***
-Orc's Warrior #1 (38.0 HP) has attacked by truncheon People's Warrior #2 (48.0 HP); Orc's Warrior #1 from privilege group, his damage is: 30.0 HP  -  People's Warrior #2 live level became 18.0 HP
+Elf's Archer #3 (53.0 HP) shot from the bow Undead's Zombie #4 (32.5 HP); Elf's Archer #3 from privilege group, his damage is: 10.5 HP  -  Undead's Zombie #4 live level became 22.0 HP
 *** The next attacking Heroes from usual group ***
-Action 104:  Orc's Warrior #4 (57.0 HP) has attacked by truncheon People's Archer #3 (10.0 HP);   -  People's Archer #3 is killed
-Action 105:  Orc's Warrior #2 (37.0 HP) has attacked by truncheon People's Warrior #2 (18.0 HP);   -  People's Warrior #2 is killed
+Action 86:  Elf's Warrior #4 (50.0 HP) has attacked by sword Undead's Necromancer (28.5 HP);   -  Undead's Necromancer live level became 13.5 HP
+Action 87:  Elf's Warrior #3 (76.0 HP) has attacked by sword Undead's Zombie #2 (50.0 HP); Damage of Elf's Warrior #3 was reduced by Necromancer bane to 7.5 HP  -  Undead's Zombie #2 live level became 42.5 HP
+Action 88:  Elf's Archer #1 (48.0 HP) shot from the bow Undead's Necromancer (13.5 HP);   -  Undead's Necromancer live level became 6.5 HP
+Action 89:  Elf's Magician (46.0 HP) has made improvements to Elf's Warrior #4
+Action 90:  Elf's Archer #2 (28.0 HP) shot from the bow Undead's Zombie #1 (53.0 HP);   -  Undead's Zombie #1 live level became 46.0 HP
+Action 91:  Elf's Warrior #1 (40.0 HP) has attacked by sword Undead's Necromancer (6.5 HP);   -  Undead's Necromancer is killed
+Action 92:  Elf's Warrior #2 (44.0 HP) has attacked by sword Undead's Hunter #3 (33.0 HP); Damage of Elf's Warrior #2 was reduced by Necromancer bane to 7.5 HP  -  Undead's Hunter #3 live level became 25.5 HP
+-----------------------------------
+Elf have 8 alive heroes
+Undead have 7 alive heroes
+ 
+Elf is attacking, step #13:
+*** First is attacking Heroes from privilege group ***
+Elf's Warrior #4 (50.0 HP) has attacked by sword Undead's Zombie #4 (22.0 HP); Elf's Warrior #4 from privilege group, his damage is: 22.5 HP  -  Undead's Zombie #4 is killed
+*** The next attacking Heroes from usual group ***
+Action 93:  Elf's Archer #1 (48.0 HP) attack an enemy Undead's Zombie #1 (46.0 HP);   -  Undead's Zombie #1 live level became 43.0 HP
+Action 94:  Elf's Archer #2 (28.0 HP) attack an enemy Undead's Zombie #1 (43.0 HP);   -  Undead's Zombie #1 live level became 40.0 HP
+Action 95:  Elf's Warrior #3 (76.0 HP) has attacked by sword Undead's Hunter #2 (44.5 HP);   -  Undead's Hunter #2 live level became 29.5 HP
+Action 96:  Elf's Warrior #2 (44.0 HP) has attacked by sword Undead's Hunter #2 (29.5 HP);   -  Undead's Hunter #2 live level became 14.5 HP
+Action 97:  Elf's Archer #3 (53.0 HP) shot from the bow Undead's Zombie #2 (42.5 HP);   -  Undead's Zombie #2 live level became 35.5 HP
+Action 98:  Elf's Warrior #1 (40.0 HP) has attacked by sword Undead's Hunter #3 (25.5 HP);   -  Undead's Hunter #3 live level became 10.5 HP
+Action 99:  Elf's Magician (46.0 HP) has made improvements to Elf's Archer #2
+-----------------------------------
+Elf have 8 alive heroes
+Undead have 6 alive heroes
+ 
+Undead is attacking, step #14:
+*** There is no Heroes in privilege group ***
+Action 100:  Undead's Hunter #3 (10.5 HP) attack an enemy Elf's Archer #3 (53.0 HP);   -  Elf's Archer #3 live level became 51.0 HP
+Action 101:  Undead's Hunter #1 (56.0 HP) attack an enemy Elf's Warrior #1 (40.0 HP);   -  Elf's Warrior #1 live level became 38.0 HP
+Action 102:  Undead's Zombie #1 (40.0 HP) has attacked by spear Elf's Archer #2 (28.0 HP);   -  Elf's Archer #2 live level became 10.0 HP
+Action 103:  Undead's Hunter #2 (14.5 HP) shot from the bow Elf's Warrior #3 (76.0 HP);   -  Elf's Warrior #3 live level became 72.0 HP
+Action 104:  Undead's Zombie #3 (22.0 HP) has attacked by spear Elf's Warrior #2 (44.0 HP);   -  Elf's Warrior #2 live level became 26.0 HP
+Action 105:  Undead's Zombie #2 (35.5 HP) has attacked by spear Elf's Warrior #1 (38.0 HP);   -  Elf's Warrior #1 live level became 20.0 HP
+-----------------------------------
+Elf have 8 alive heroes
+Undead have 6 alive heroes
+ 
+Undead is attacking, step #15:
+*** There is no Heroes in privilege group ***
+Action 106:  Undead's Hunter #3 (10.5 HP) shot from the bow Elf's Magician (46.0 HP);   -  Elf's Magician live level became 42.0 HP
+Action 107:  Undead's Hunter #2 (14.5 HP) shot from the bow Elf's Warrior #4 (50.0 HP);   -  Elf's Warrior #4 live level became 46.0 HP
+Action 108:  Undead's Zombie #2 (35.5 HP) has attacked by spear Elf's Warrior #1 (20.0 HP);   -  Elf's Warrior #1 live level became 2.0 HP
+Action 109:  Undead's Zombie #1 (40.0 HP) has attacked by spear Elf's Archer #2 (10.0 HP);   -  Elf's Archer #2 is killed
+Action 110:  Undead's Zombie #3 (22.0 HP) has attacked by spear Elf's Warrior #1 (2.0 HP);   -  Elf's Warrior #1 is killed
+Action 111:  Undead's Hunter #1 (56.0 HP) shot from the bow Elf's Archer #3 (51.0 HP);   -  Elf's Archer #3 live level became 47.0 HP
+-----------------------------------
+Elf have 6 alive heroes
+Undead have 6 alive heroes
+ 
+Elf is attacking, step #16:
+*** There is no Heroes in privilege group ***
+Action 112:  Elf's Archer #1 (48.0 HP) shot from the bow Undead's Zombie #3 (22.0 HP);   -  Undead's Zombie #3 live level became 15.0 HP
+Action 113:  Elf's Warrior #4 (46.0 HP) has attacked by sword Undead's Hunter #1 (56.0 HP);   -  Undead's Hunter #1 live level became 41.0 HP
+Action 114:  Elf's Magician (42.0 HP) has made improvements to Elf's Archer #1
+Action 115:  Elf's Warrior #3 (72.0 HP) has attacked by sword Undead's Zombie #3 (15.0 HP);   -  Undead's Zombie #3 is killed
+Action 116:  Elf's Warrior #2 (26.0 HP) has attacked by sword Undead's Hunter #2 (14.5 HP);   -  Undead's Hunter #2 is killed
+Action 117:  Elf's Archer #3 (47.0 HP) shot from the bow Undead's Zombie #2 (35.5 HP);   -  Undead's Zombie #2 live level became 28.5 HP
+-----------------------------------
+Elf have 6 alive heroes
+Undead have 4 alive heroes
+ 
+Elf is attacking, step #17:
+*** First is attacking Heroes from privilege group ***
+Elf's Archer #1 (48.0 HP) attack an enemy Undead's Hunter #3 (10.5 HP); Elf's Archer #1 from privilege group, his damage is: 4.5 HP  -  Undead's Hunter #3 live level became 6.0 HP
+*** The next attacking Heroes from usual group ***
+Action 118:  Elf's Magician (42.0 HP) has made improvements to Elf's Archer #3
+Elf's Archer #3 became privilege during attack and he is attacking immediately
+Action 119:  Elf's Archer #3 (47.0 HP) shot from the bow Undead's Zombie #1 (40.0 HP); Elf's Archer #3 from privilege group, his damage is: 10.5 HP  -  Undead's Zombie #1 live level became 29.5 HP
+Action 120:  Elf's Warrior #3 (72.0 HP) has attacked by sword Undead's Hunter #1 (41.0 HP);   -  Undead's Hunter #1 live level became 26.0 HP
+Action 121:  Elf's Warrior #2 (26.0 HP) has attacked by sword Undead's Zombie #1 (29.5 HP);   -  Undead's Zombie #1 live level became 14.5 HP
+Action 122:  Elf's Warrior #4 (46.0 HP) has attacked by sword Undead's Zombie #2 (28.5 HP);   -  Undead's Zombie #2 live level became 13.5 HP
+-----------------------------------
+Elf have 6 alive heroes
+Undead have 4 alive heroes
+ 
+Elf is attacking, step #18:
+*** There is no Heroes in privilege group ***
+Action 123:  Elf's Archer #1 (48.0 HP) shot from the bow Undead's Hunter #3 (6.0 HP);   -  Undead's Hunter #3 is killed
+Action 124:  Elf's Magician (42.0 HP) has made damage by magic to Undead's Hunter #1 (26.0 HP);   -  Undead's Hunter #1 live level became 16.0 HP
+Action 125:  Elf's Warrior #3 (72.0 HP) has attacked by sword Undead's Zombie #1 (14.5 HP);   -  Undead's Zombie #1 is killed
+Action 126:  Elf's Warrior #2 (26.0 HP) has attacked by sword Undead's Hunter #1 (16.0 HP);   -  Undead's Hunter #1 live level became 1.0 HP
+Action 127:  Elf's Archer #3 (47.0 HP) shot from the bow Undead's Hunter #1 (1.0 HP);   -  Undead's Hunter #1 is killed
+Action 128:  Elf's Warrior #4 (46.0 HP) has attacked by sword Undead's Zombie #2 (13.5 HP);   -  Undead's Zombie #2 is killed
+-----------------------------------
+Elf have 6 alive heroes
+Undead have 0 alive heroes
+ 
 Game over
+!!!Elf are winners!!!
+At winners army have left alive Heroes:
+Elf's Magician with live level 42.0 HP
+Elf's Archer #1 with live level 48.0 HP
+Elf's Archer #3 with live level 47.0 HP
+Elf's Warrior #2 with live level 26.0 HP
+Elf's Warrior #3 with live level 72.0 HP
+Elf's Warrior #4 with live level 46.0 HP
