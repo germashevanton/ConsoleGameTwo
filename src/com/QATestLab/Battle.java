@@ -8,7 +8,7 @@ public class Battle {
 
     private Random random = new Random();
     public static int indexOfNewPrivilege = -1;
-    private int actionCount = 0;
+    private int actionCount = 1;
 
     public Battle(Army oneSide, Army anotherSide) {
 
@@ -58,7 +58,7 @@ public class Battle {
         }
     }
 
-    // if magician make improvements and this Hero has no attacked yet, he is attacking immediately
+    // if magician make improvements and this Hero has not attacked yet, he is attacking immediately
     private void usualGroupAction(Army homeArmy, Army enemyArmy, int[] usual) {
         int indexPrivAttacked = -1;
         int index;
